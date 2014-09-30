@@ -1,0 +1,158 @@
+
+
+<?php
+/*	ADD CONTAINERS FORM */ 
+?>
+
+<div style="height: 400px;">
+	<?php 
+		$addSurveyForm = $this->addContainersForm;
+		$addSurveyForm->prepare();
+		
+		// Assuming the "contact/process" route exists...
+		//$addContainersForm->setAttribute('action', $this->url('admin'));
+		
+		// Set the method attribute for the form
+		$addSurveyForm->setAttribute('method', 'get');
+		
+		// Set the method attribute for the form
+		$addSurveyForm->setAttribute('id', 'addContainersForm');
+		
+		$addSurveyForm->setAttribute('class', 'pure-form');
+		
+		// Get the form label plugin
+		$addContainersFormLabel = $this->plugin('formLabel');
+	
+		// Render the opening tag
+		echo $this->form()->openTag($addSurveyForm);
+	?>
+	
+	<fieldset class="pure-group">
+		<?php
+			$name = $addSurveyForm->get('name');
+		    echo $this->formInput($name);
+		    echo $this->formElementErrors($name);
+		
+		    $description = $addSurveyForm->get('description');
+		    echo $this->formInput($description);
+		    echo $this->formElementErrors($description);
+		?>
+	</fieldset>
+	
+		
+        <div style="text-align:center;">
+			<?php
+			$private = $addSurveyForm->get('private');
+            $private -> setName('flags[private]');
+			$private -> setValue('true');
+			$private -> setUseHiddenElement(false);
+			echo '<img src="/img/ico/lock.png" title="PRIVATE" width="20" height="20">';
+			echo "&nbsp";
+			echo $this->formcheckbox($private);
+			
+			$moderated = $addSurveyForm->get('moderated');
+            $moderated ->setName('flags[moderated]');
+            $moderated ->setUseHiddenElement(false);
+			echo "&nbsp &nbsp &nbsp &nbsp";
+			echo '<img src="/img/ico/moderated.png" title="MODERATED" width="20" height="20">';
+			echo "&nbsp";
+            $moderated->setUseHiddenElement(false);
+			echo $this->formcheckbox($moderated, 'prepend');
+            echo "&nbsp &nbsp &nbsp &nbsp";
+			
+			$allowComments = $addSurveyForm->get('allowComments');
+            $allowComments ->setName('flags[allowComments]');
+            $allowComments ->setUseHiddenElement(false);
+            echo '<img src="/img/ico/comment.png" title="ALLOW COMMENTS" width="20" height="20">';
+            echo "&nbsp";
+			echo $this->formcheckbox($allowComments, 'prepend');
+
+            $allowAnonymous = $addSurveyForm->get('allowAnonymous');
+            $allowAnonymous ->setName('flags[allowAnonymous]');
+            $allowAnonymous ->setUseHiddenElement(false);
+			echo "&nbsp &nbsp &nbsp &nbsp";
+			echo '<img src="/img/ico/anonymous.png" title="ALLOW ANONYMOUS" width="20" height="20">';
+			echo "&nbsp";
+			echo $this->formcheckbox($allowAnonymous, 'prepend');
+			echo "<br>";
+			
+			$default     = $addSurveyForm->get('default');
+			$default     ->setName('flags[default]');
+			$default     ->setUseHiddenElement(false);
+			//echo "&nbsp &nbsp &nbsp &nbsp";
+			//echo '<img src="/img/ico/anonymous.png" title="ALLOW ANONYMOUS" width="20" height="20">';
+			//echo "&nbsp";
+			echo $this->formcheckbox($default, 'prepend');
+			echo "&nbsp set as default";
+			?>
+        </div>
+        <br>
+    	
+    	
+    	
+    	<div class="pure-control-group">
+    	<div>
+		<div style='float:left;'>
+		<?php 
+			
+			$creator     = $addSurveyForm->get('creator');
+			$creator     -> setAttribute ('onchange',"getCirclesRequest('/users/get-circles','socialCircles3','containerCreatorLabelUid');
+			                                          getContainersIdListRequest('/surveys/get-containers-id-list','containerListUid1','containerCreatorLabelUid');
+			                                          return true;")
+			             -> setAttribute("id", "containerCreatorLabelUid");
+			
+			$container   = $addSurveyForm->get('container');
+			$container   -> setAttribute("id", "containerListUid1")
+			             -> setAttribute("name", "container");
+			
+			echo $addContainersFormLabel->openTag();
+			echo $creator->getLabel();
+			
+			echo $addContainersFormLabel->closeTag();
+			echo $this->formSelect($creator);
+			echo $this->formElementErrors($creator);
+			
+			
+			
+			echo $addContainersFormLabel->openTag();
+			echo $container->getLabel();
+			
+			echo $addContainersFormLabel->closeTag();
+			echo $this->formSelect($container);
+			echo $this->formElementErrors($container);
+			?>
+			<div id=userContainersList1></div>
+			<?php 
+			$delegationLevel = $addSurveyForm->get('delegationLevel');
+			echo $addContainersFormLabel->openTag();
+			echo $delegationLevel->getLabel();
+			
+			echo $addContainersFormLabel->closeTag();
+			echo $this->formSelect($delegationLevel);
+			echo $this->formElementErrors($delegationLevel);
+			$nestingLevel = $addSurveyForm -> get('nestingLevel');
+			
+			echo $addContainersFormLabel -> openTag();
+			echo $nestingLevel -> getLabel();
+			
+			echo $addContainersFormLabel -> closeTag();
+			echo $this -> formSelect($nestingLevel);
+			echo $this -> formElementErrors($nestingLevel);
+			
+	   ?>
+	       </div>
+			<!--  DESTINATION DIV for DYNAMIC FORM!
+			     socialCircles=tagId in getCircles.js! -->
+			<div style="float:left;">
+    			<div id=socialCircles3></div>
+    	    </div>
+			</div>
+		
+	</div>
+	<div id="addContainerDialogConfirmDiv"></div>
+	<div style="float:right">
+			<?php echo $this->formElement($addSurveyForm->get('send')); ?>
+	</div>
+		
+	<?php echo $this->form()->closeTag() ?>
+</div>	

@@ -1,0 +1,124 @@
+{
+    "unit0": {
+        "title": "Sit Lorem duis cillum aliquip proident excepteur aliquip culpa dolore Lorem quis commodo qui.?",
+        "type": "single",
+        "items": {
+            "item1": {
+                "label": "Amet non anim sint in.",
+                "USID": 9251968442,
+                "votes": "0"
+            },
+            "item2": {
+                "label": "Reprehenderit dolor laboris occaecat sit.",
+                "USID": 5802856652,
+                "votes": "0"
+            }
+        }
+    },
+    "unit1": {
+        "title": "Aliqua tempor ad ea minim consectetur sit.?",
+        "type": "multi",
+        "items": {
+            "item1": {
+                "label": "Et sint consequat laborum quis officia fugiat in qui cupidatat fugiat culpa.",
+                "USID": 5752609649,
+                "votes": "0"
+            },
+            "item2": {
+                "label": "Nisi incididunt adipisicing sint culpa sit voluptate velit qui consequat.",
+                "USID": 9276250811,
+                "votes": "0"
+            },
+            "item3": {
+                "label": "Occaecat non velit velit eiusmod sit minim.",
+                "USID": 6397721276,
+                "votes": "0"
+            }
+        }
+    },
+    "unit2": {
+        "title": "Do occaecat ad in nisi ad voluptate.?",
+        "type": "shultze",
+	“mean”: [131,123,1231,123,13,12],
+	“variance”: [123,123,123,123,123,123],
+        "items": {
+            "item1": {
+                "label": "Non culpa pariatur et dolore laborum consequat id elit deserunt voluptate.",
+                "USID": 6182968577,
+                "votes": "0"
+            },
+            "item2": {
+                "label": "In ipsum consequat excepteur fugiat.",
+                "USID": 4218971292,
+                "votes": "0"
+            },
+            "item3": {
+                "label": "Enim laborum non ad mollit quis nisi esse ut eiusmod.",
+                "USID": 6889609622,
+                "votes": "0"
+            },
+            "item4": {
+                "label": "Adipisicing voluptate reprehenderit qui quis labore eu esse ut esse dolor aliquip consectetur eiusmod exercitation.",
+                "USID": 8633522390,
+                "votes": "0"
+            },
+            "item5": {
+                "label": "Ut adipisicing duis anim ipsum eiusmod ipsum consectetur nulla veniam cillum do aliqua Lorem.",
+                "USID": 8510002084,
+                "votes": "0"
+            }
+        }
+    },
+    "unit3": {
+        "title": "Occaecat laborum sint cillum reprehenderit deserunt dolore anim sunt sunt officia.?",
+        "type": "likert",
+        "items": {
+            "item1": {
+                "label": "*",
+                "USID": 3948922386,
+                "votes": "0"
+            },
+            "item2": {
+                "label": "**",
+                "USID": 9985635370,
+                "votes": "0"
+            },
+            "item3": {
+                "label": "***",
+                "USID": 3107222570,
+                "votes": "0"
+            },
+            "item4": {
+                "label": "****",
+                "USID": 5598926185,
+                "votes": "0"
+            },
+            "item5": {
+                "label": "*****",
+                "USID": 3552127976,
+                "votes": "0"
+            }
+        }
+    },
+    "unit4": {
+        "title": "Cillum consectetur veniam aliquip excepteur enim ut magna tempor qui quis nisi eiusmod.?",
+        "type": "thumb",
+        "items": [
+            {
+                "label": "yes",
+                "USID": 6937166998,
+                "votes": "0"
+            },
+            {
+                "label": "neutral",
+                "USID": 6114054019,
+                "votes": "0"
+            },
+            {
+                "label": "no",
+                "USID": 3465719339,
+                "votes": "0"
+            }
+        ]
+    }
+}

@@ -1,0 +1,90 @@
+<?php   $account=$this->zfcUserIdentity(); ?>
+<div class="vader" style="float: left; margin-top:10px;">
+	<ul id="usermenu">
+          <li>
+            <a href="#">
+            <img src=<?php echo $this->basePath('img/ico/home.png'); ?> 
+                                 width="19"
+                                 height="19" />
+             <?php echo $this->zfcUserDisplayName();?></a>
+            <ul>
+              <li>
+                <a href="#">
+                <img src=<?php echo $this->basePath('img/ico/user-edit.png'); ?> 
+                                 width="19"
+                                 height="19" />
+                Account</a>
+                <ul>
+                  <li><a href="/user/logout" > 
+                  <img src=<?php echo $this->basePath('img/ico/user-logout.png'); ?> 
+                                 width="19"
+                                 height="19" />
+                  Logout</a></li>
+                </ul>
+              </li>
+              <?php if($account->getAccountType()=='admin'){?>
+              
+              <li>
+                <a href="#"> 
+                            <img src=<?php echo $this->basePath('img/ico/neo4j.png'); ?> 
+                                 width="19"
+                                 height="19" />
+                                 Database
+                </a>
+                <ul>
+                
+                  <li><a href="admin/wipeDb"
+            		   style="text-decoration: none;"
+            		   onclick="confirm('Do you really want to DELETE all users in DB?');">
+            		   <img src=<?php echo $this->basePath('img/ico/delete_db.png'); ?> 
+            		   width="22"
+                       height="22" />
+                       WIPE!
+                     </a>
+                  </li>
+                  <li><a href="#">
+                  <img src=<?php echo $this->basePath('img/ico/shuffle.png'); ?> 
+                                 width="19"
+                                 height="19" />
+                  Generate</a>
+                  
+                      <ul>
+                      <li><a href="admin/load-random-people">
+                            <img src=<?php echo $this->basePath('img/ico/shuffle.png'); ?> 
+                                 width="19"
+                                 height="19" />
+                        Users</a>
+                      </li>
+                      <li><a href="application/admin/create-random-relations">
+                            <img src=<?php echo $this->basePath('img/ico/shuffle.png'); ?> 
+                                 width="19"
+                                 height="19" />
+                        Relationships</a>
+                      </li>
+                      <li><a href="application/admin/create-random-surveys">
+                            <img src=<?php echo $this->basePath('img/ico/shuffle.png'); ?> 
+                                 width="19"
+                                 height="19" />
+                        Surveys</a>
+                      </li>
+                      </ul>
+                   </li>
+                </ul>
+              </li>
+              <?php }?>
+              <li><a 
+        	        href="/admin">
+        	        <img src=<?php echo $this->basePath('img/ico/reload.png'); ?> 
+        	        width="22"
+        		    height="22" />
+        		    Reload
+                </a>
+              </li>
+            </ul>
+          </li>
+  
+    </ul>
+</div>
+
+
+				

@@ -1,0 +1,35 @@
+
+<?php   $account=$this->zfcUserIdentity(); ?>
+
+<div id="accordion">
+    <?php if($account->getAccountType()=='admin'){?>
+    <!-- ************************************ ADD USER **********************************************  -->
+    <h6>ADD USERS</h6>
+    <div>
+       <?php echo "$this->addUsersView"; ?>
+    </div>
+    <?php } ?>
+    <!-- ************************************ ADD CIRCLES *******************************************  -->
+    <h6>ADD CIRCLES</h6>
+    <div>
+        <?php echo "$this->addCirclesView"; ?>
+    </div>
+    
+    <?php if($account->getAccountType()=='admin'){?>
+    <!-- *********************************** DELETE USER ********************************************  -->
+    <h6>DELETE USERS</h6>
+    <div>
+        <?php echo "$this->deleteUsersView"; ?>
+    </div>
+    <?php } ?>
+    <!-- ******************************** CREATE SOCIAL RELATION ************************************  -->
+    <h6>CREATE SOCIAL RELATION</h6>
+    <div>
+        <?php echo "$this->addSocialRelationView"; ?>
+    </div>
+    <!-- ******************************** DELETE SOCIAL RELATION ************************************  -->
+    <h6>DELETE SOCIAL RELATION</h6>
+    <div>
+        <?php echo "$this->deleteSocialRelationView"; ?>
+    </div>
+</div>

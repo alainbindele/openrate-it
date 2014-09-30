@@ -1,0 +1,55 @@
+<!--
+/*
+ * Application name: OpenRate-it!
+ * A general-purpose polling platform
+ * Copyright (C) 2014  Alain Bindele (alain.bindele@gmail.com)
+ * This file is part of OpenRate-it!
+ * OpenRate-it! is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ * OpenRate-it! is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ */
+-->
+
+<?php
+$form = $this->loginForm;
+$form->prepare();
+$form->setAttribute('action', $this->url('zfcuser/login'));
+$form->setAttribute('method', 'post');
+$form->setAttribute('class', 'pure-form');
+?>
+<div>
+    <div style="width:48%;float:left;">
+    <?php echo $this->form()->openTag($form) ?>
+    
+        
+            <?php echo $this->formElementErrors($form->get('identity')) ?>
+    
+    		<fieldset class="pure-group" >
+    	        <?php echo $this->formInput($form->get('identity')) ?>
+    	        <?php echo $this->formInput($form->get('credential')) ?>
+    	        
+    	        <?php if ($this->redirect): ?>
+    	            <input type="hidden" name="redirect" value="<?php echo $this->escapeHtml($this->redirect) ?>" />
+    	        <?php endif ?>
+            </fieldset>
+            
+	        <?php echo $this->formButton($form->get('submit')) ?>
+	        <?php echo $this->form()->closeTag() ?>
+    	   
+            <?php echo $this->translate('Not registered?  &nbsp'); ?> 
+            <a href="<?php echo $this->url('zfcuser/register') . ($this->redirect ? '?redirect='.$this->redirect : '') ?>">
+            <?php echo $this->translate('Sign up!'); ?></a>
+   
+    </div>
+
+</div>
+  
+

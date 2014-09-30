@@ -1,0 +1,60 @@
+<!-- ***************** DELETE ONE USER ************************** -->
+
+<?php 
+/*	RENDER DELETE USERS FORM */ 
+?>
+
+<div style="height:255px; overflow:scroll;">
+	<?php 
+		$deleteUsersForm = $this->deleteUsersForm;
+		$deleteUsersForm->prepare();
+		
+		// Assuming the "contact/process" route exists...
+		
+		//$url = $this->url('users',array('action'=>'delete-user'));
+		//$deleteUsersForm->setAttribute('action', 'delete-user()');
+		
+		// Set the method attribute for the form
+		$deleteUsersForm->setAttribute('method', 'delete');
+		
+		// Set the method attribute for the form
+		$deleteUsersForm->setAttribute('id', 'deleteUserForm');
+		$deleteUsersForm->setAttribute('name', 'deleteUserForm');
+		$deleteUsersForm->setAttribute('class', 'pure-form');
+		
+		// Get the form label plugin
+		$deleteUsersFormLabel = $this->plugin('formLabel');
+	
+		// Render the opening tag
+		echo $this -> form() -> openTag( $deleteUsersForm );
+	?>
+	User &nbsp 
+	<?php
+		$user 		= $deleteUsersForm->get('user');
+	    echo $this -> formSelect( $user );
+	    //echo $this -> formElementErrors( $user );
+	    echo "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp";
+	?>
+	<div style="float:right; margin-right:15px;">
+		<?php
+		    echo $this->formElement($deleteUsersForm->get('deleteUsersButton'));
+			echo $this->form()->closeTag() 
+		?>
+	</div>
+</div>
+
+<!-- ***************** DELETE ALL USERS ************************** -->
+<div>
+	<br>
+	<label>Delete all Users!</label>
+	&nbsp &nbsp &nbsp
+	<div style="float:right; margin-right:15px;">
+ 	<img 	type="button"
+ 			src="img/ico/skull.png"
+ 			width = "29"
+ 			height = "29"
+			onclick="var conf=confirm('Do you really want to DELETE all users in DB?');
+				if(!conf)return;
+				javascript:location.href='/application/admin/del-all-users';"></button>
+	</div>
+</div>

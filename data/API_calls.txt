@@ -1,0 +1,563 @@
+API Json requests:
+
+
+===============================================
+Add User
+===============================================
+
+=== REQUEST ===
+
+Method: POST
+URL: /users/add-user
+contentType: "application/json; charset=utf-8",
+dataType: "json"
+content:
+{
+    "name": "Name",
+    "surname": "Surname",
+    "mail": "user@mail.com",
+    "howMany": "1",
+    "accountType": "tester",
+    "phpsessid": "410559f601b1a122de614010692f3461"
+}
+
+=== RESPONSE(S) ===
+
+
+HTTP Return Code: 201  (resource created)
+
+{
+    "response": true,
+    "newUserId": [
+        32073
+    ],
+    "newRelsAndContainers": [
+        {
+            "relId": 45172,
+            "containerId": 32074
+        }
+    ]
+}
+
+401 (User not authenticated)
+500 (Internal Server Error)
+example:
+{
+   "response":true,
+   "message":"could not create user"
+}
+
+400 (Bad request)
+
+===============================================
+Get User
+===============================================
+
+=== REQUEST ===
+
+Method: GET
+URL: /users/get-user/{id}
+
+=== RESPONSE ===
+200 (OK)
+{
+    "creationDate": "2013-12-24 18:53:30",
+    "circles": [
+        "social"
+    ],
+    "mail": "user.name@gmail.com",
+    "numberOfOutVotes": "2",
+    "numberOfInVotes": 0,
+    "numberOfFriends": "4",
+    "name": "Name",
+    "numberOfContainers": 1,
+    "accountType": "tester",
+    "surname": "Surname",
+    "class": "Application\\Model\\Entity\\UserNode",
+    "numberOfSurveys": 1,
+    "updateDate": "2013-12-24 18:53:30"
+}
+
+
+
+===============================================
+Add Circles
+===============================================
+
+=== REQUEST ===
+
+Method: POST
+URL: /users/add-circle
+contentType: "application/json; charset=utf-8",
+dataType: "json"
+content:
+{
+    "circles": [
+        "Cerchia1",
+        "Cerchia2",
+        "Cerchia3"
+    ],
+    "user": "1165",
+    "PHPSESSID": "nuu79nqlah58mbge437uk8h8d0"
+}
+
+=== RESPONSE(S) ===
+
+200 (OK)
+{
+    "response":true
+}
+
+
+===============================================
+Get Circles
+===============================================
+
+=== REQUEST ===
+
+Method: GET
+URL: /users/get-circles/{id}
+
+
+content:
+
+=== RESPONSE(S) ===
+
+TO ADD
+
+
+===============================================
+Add Social Relation
+===============================================
+
+=== REQUEST ===
+
+Method: POST
+URL: /users/add-social-relation
+contentType: "application/json; charset=utf-8",
+dataType: "json"
+content:
+{
+    "circles": [
+        "social",
+        "friends",
+        "family",
+        "university"
+    ],
+    "startUser": "1171",
+    "endUser": "1161",
+    "PHPSESSID": "nuu79nqlah58mbge437uk8h8d0"
+}
+
+=== RESPONSE(S) ===
+
+200 (OK)
+{
+   "response":true,
+   "RelId":8596
+}
+
+
+===============================================
+Delete Social Relation
+===============================================
+
+=== REQUEST ===
+Method: DELETE
+URL: /users/delete-social-relationship
+content:
+{
+    "contacts": [
+        "16912"
+    ],
+    "startUser": "16914",
+    "PHPSESSID": "410559f601b1a122de614010692f3461"
+}
+
+=== RESPONSE(S) ===
+
+200 (OK)
+{
+    "response": true,
+    "RelId": null
+}
+
+
+
+===============================================
+Get Contact List
+===============================================
+
+=== REQUEST ===
+
+Method: GET
+URL: /users/get-user-contacts/{id}
+
+=== RESPONSE(S) ===
+
+200 (OK)
+{
+    "16932": [
+        "Thomas E.",
+        "ANDERSON"
+    ],
+    "24042": [
+        "Samuel L.",
+        "JACKSON"
+    ],
+    "24044": [
+        "Valentino",
+        "Rossi"
+    ],
+    "24052": [
+        "MARTIN",
+        "Scorsese"
+    ]
+}
+
+
+
+===============================================
+Add Survey
+===============================================
+
+=== REQUEST ===
+
+Method: POST
+URL: /surveys/add-survey
+contentType: "application/json; charset=utf-8",
+dataType: "json"
+content:
+{
+    "title": "Survey Name",
+    "description": "Survey description",
+    "flags": {
+        "private": "1",
+        "moderated": "1",
+        "allowComments": "1",
+        "allowAnonymous": "1"
+    },
+    "creator": "16924",
+    "container": "16925",
+    "circles": [
+        "social",
+        "eerge"
+    ],
+    "delegationLevel": "1",
+    "units": {
+        "unit0": {
+            "title": "Unit 1 Question",
+            "type": "single",
+            "items": {
+                "item1": "option1",
+                "item2": "option2"           
+                }
+        },
+        "unit1": {
+            "title": "Unit2 Question",
+            "type": "multi",
+            "items": {
+                "item1": "option1",
+                "item2": "option2",
+                "item3": "option3"
+            }
+        },
+        "unit2": {
+            "title": "Unit3 Question",
+            "type": "shultze",
+            "items": {
+                "item1": "option1",
+                "item2": "option2",
+                "item3": "option3",
+                "item4": "option4",
+                "item5": "option5"
+            }
+        },
+        "unit3": {
+            "title": "Unit3 Question",
+            "type": "likert",
+            "items": {
+                "item1": "*",
+                "item2": "**",
+                "item3": "***",
+                "item4": "****"
+            }
+        },
+        "unit4": {
+            "title": "Unit4 Question",
+            "type": "thumb",
+            "items": {
+                "item1": "thumb"
+            }
+        }
+    },
+    "phpsessid": "410559f601b1a122de614010692f3461"
+}
+
+
+=== RESPONSE(S) ===
+
+200 (OK)
+{
+    "response": true,
+    "newSurveyId": 32078,
+    "newRelId": 45176
+}
+
+
+
+===============================================
+Get Survey
+===============================================
+
+=== REQUEST ===
+
+Method: GET
+URL: /surveys/get-survey/32078
+
+
+=== RESPONSE(S) ===
+
+200 (OK)
+{
+    "creationDate": "2014-01-22 18:38:16",
+    "hits": "1",
+    "title": "Survey Name",
+    "moderated": true,
+    "delegationLevel": "1",
+    "allowAnonymous": true,
+    "description": "Survey description",
+    "allowComments": true,
+    "class": "Application\\Model\\Entity\\SurveyNode",
+    "totVotes": "0",
+    "updateDate": "2014-01-22 18:38:16",
+    "private": true,
+    "creator": "16924",
+    "units": {
+        "unit0": {
+            "title": "Unit 1 Question",
+            "type": "single",
+            "items": {
+                "item1": {
+                    "label": "option1",
+                    "USID": 2768251466,
+                    "votes": "0"
+                },
+                "item2": {
+                    "label": "option2",
+                    "USID": 4312983753,
+                    "votes": "0"
+                }
+            }
+        },
+        "unit1": {
+            "title": "Unit2 Question",
+            "type": "multi",
+            "items": {
+                "item1": {
+                    "label": "option1",
+                    "USID": 7366208978,
+                    "votes": "0"
+                },
+                "item2": {
+                    "label": "option2",
+                    "USID": 8108627686,
+                    "votes": "0"
+                },
+                "item3": {
+                    "label": "option3",
+                    "USID": 9494766960,
+                    "votes": "0"
+                }
+            }
+        },
+        "unit2": {
+            "title": "Unit3 Question",
+            "type": "shultze",
+            "items": {
+                "item1": {
+                    "label": "option1",
+                    "USID": 6751862406,
+                    "votes": "0"
+                },
+                "item2": {
+                    "label": "option2",
+                    "USID": 3142158171,
+                    "votes": "0"
+                },
+                "item3": {
+                    "label": "option3",
+                    "USID": 4894530845,
+                    "votes": "0"
+                },
+                "item4": {
+                    "label": "option4",
+                    "USID": 8444525976,
+                    "votes": "0"
+                },
+                "item5": {
+                    "label": "option5",
+                    "USID": 3935913672,
+                    "votes": "0"
+                }
+            }
+        },
+        "unit3": {
+            "title": "Unit3 Question",
+            "type": "likert",
+            "items": {
+                "item1": {
+                    "label": "*",
+                    "USID": 1856321100,
+                    "votes": "0"
+                },
+                "item2": {
+                    "label": "**",
+                    "USID": 1175266971,
+                    "votes": "0"
+                },
+                "item3": {
+                    "label": "***",
+                    "USID": 6886890620,
+                    "votes": "0"
+                },
+                "item4": {
+                    "label": "****",
+                    "USID": 6141852387,
+                    "votes": "0"
+                }
+            }
+        },
+        "unit4": {
+            "title": "Unit4 Question",
+            "type": "thumb",
+            "items": [
+                {
+                    "label": "yes",
+                    "USID": 3925692926,
+                    "votes": "0"
+                },
+                {
+                    "label": "neutral",
+                    "USID": 8357302207,
+                    "votes": "0"
+                },
+                {
+                    "label": "no",
+                    "USID": 5784006624,
+                    "votes": "0"
+                }
+            ]
+        }
+    }
+}
+
+
+===============================================
+Vote Survey
+===============================================
+
+=== REQUEST ===
+
+Method: POST
+URL: /surveys/add-rate
+contentType: "application/json; charset=utf-8",
+dataType: "json"
+content:
+{
+    "voterUid": "16922",
+    "creatorUid": "16924",
+    "surveySelectId": "32077",
+    "units": {
+        "unit0": [
+            "2768251466"
+        ],
+        "unit1": [
+            "7366208978",
+            "8108627686"
+        ],
+        "unit3": [
+            "6886890620"
+        ],
+        "unit4": [
+            "3925692926"
+        ],
+        "unit2": [
+            "3142158171",
+            "6751862406",
+            "8444525976",
+            "4894530845",
+            "3935913672"
+        ]
+    },
+    "phpsessid": "410559f601b1a122de614010692f3461"
+}
+
+=== RESPONSE ===
+
+200 (OK)
+{
+    "response": true,
+    "relId": 45179,
+    "surveyUpdated": "32077"
+}
+
+
+
+===============================================
+ADD CONTAINER
+===============================================
+
+=== REQUEST ===
+
+Method: POST
+URL: /surveys/add-container
+contentType: "application/json; charset=utf-8",
+dataType: "json"
+content:
+{
+    "name": "Container Name",
+    "description": "Container Description",
+    "flags": {
+        "private": "1",
+        "moderated": "1",
+        "allowComments": "1",
+        "default": "1"
+    },
+    "creator": "16912",
+    "container": "16913",
+    "circles": [
+        "circle1",
+        "circle2",
+        "circle3"
+    ],
+    "delegationLevel": "1",
+    "nestingLevel": "1",
+    "phpsessid": "410559f601b1a122de614010692f3461"
+}
+
+
+=== RESPONSE(S) ===
+
+200 (OK)
+{
+    "response": true,
+    "newContainerId": 32082,
+}
+
+
+===============================================
+GET CONTAINER LIST
+===============================================
+
+=== REQUEST ===
+
+Method: GET
+URL: /surveys/get-containers-id-list/{id}
+
+=== RESPONSE(S) ===
+
+200 (OK)
+[16913,32079]
+
+

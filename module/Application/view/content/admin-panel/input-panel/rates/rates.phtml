@@ -1,0 +1,96 @@
+
+
+<div class="pure-form" style="height:380px; overflow:scroll;">
+    <!-- ****************************************  VOTE UNIT **************************************** -->
+    <?php
+        // instantiate rates form
+        $ratesForm = $this->addRatesForm;
+        $ratesForm -> prepare();
+        // set attributes for the entire form
+        $ratesForm -> setAttribute('action', $this->url('admin'));
+        // Set the method attribute for the form
+        $ratesForm -> setAttribute('method', 'get');
+        // Set the id attribute for the form
+        $ratesForm -> setAttribute('id', 'ratesForm');
+        // Get the form label plugin
+        $ratesFormLabel = $this->plugin('formLabel');
+        // Get the user text field
+        $voterUserSelect = $ratesForm->get('voterUid');
+        $creatorUserSelect = $ratesForm->get('surveyCreatorId');
+        $creatorUserSelect -> setAttribute('onchange',"getSurveysIdListRequest(surveySelectId)");
+        $surveySelect = $ratesForm->get('surveySelectId');
+        $surveySelect-> setAttribute('onchange',"getSurvey2VoteRequest(surveyInfoDiv,surveyInputDiv,1);getAuthorizedVotersList(voterUid);");
+        $anonymous = $ratesForm->get('anonymousVote');
+        $anonymous -> setName('anonymousVote');
+    ?>
+
+    <div style="height:400px;">
+        <?php
+        // Rendering form elements
+        echo $this->form()->openTag($ratesForm);
+        ?>
+        <div style="line-height:30px;float:left;">
+            <?php
+            // Rendering form elements
+            // creator
+            echo $ratesFormLabel    -> openTag();
+            echo $creatorUserSelect -> getLabel();
+            echo $ratesFormLabel    -> closeTag();
+            echo "&nbsp &nbsp";
+            echo $this  ->  formSelect($creatorUserSelect);
+            echo $this  ->  formElementErrors($creatorUserSelect);
+            echo "<br>";
+
+            //survey
+            echo $ratesFormLabel    ->  openTag();
+            echo $surveySelect      ->  getLabel();
+            echo $ratesFormLabel    ->  closeTag();
+            echo "&nbsp &nbsp";
+            echo $this->formSelect($surveySelect);
+            echo $this->formElementErrors($surveySelect);
+
+            echo "<br>";
+
+            // voter
+            echo $ratesFormLabel->openTag();
+            echo $voterUserSelect->getLabel();
+            echo $ratesFormLabel->closeTag();
+            echo "&nbsp &nbsp";
+            echo $this->formSelect($voterUserSelect);
+            echo $this->formElementErrors($voterUserSelect);
+
+
+            //echo "<div id='voterUidDiv'>";
+            echo "<br>";
+            echo '<img src="/img/ico/anonymous.png" title="ANONYMOUS" width="20" height="20">';
+            echo "&nbsp";
+            echo $this->formcheckbox($anonymous, 'prepend');
+            ?>
+            <br>
+            <div style="position:fixed;display:block;bottom:10px;">
+                <?php echo $this->formElement($ratesForm->get('send')); ?>
+            </div>
+            <div class="unit"></div>
+            <div class="items"></div>
+
+        </div>
+
+        <div style="width:70%; float: right;">
+            <h6>Info:</h6>
+            <div style="padding:10px; height:300px;border:1px solid #DCDCDC;border-radius:3px;overflow: auto; max-height: 350px;">
+                <div style="padding:5px;border-radius:5px;height:100%;overflow:scroll;border: 1px solid #EEEEEE;float:left;margin:auto; text-align: left; width:48%; line-height: 18px; " id="surveyInfoDiv"></div>
+                <div style="padding:5px;border-radius:5px;height:100%;overflow:scroll;border: 1px solid #EEEEEE;float: right;margin:auto;text-align:right;width:48%;  " id="surveyInputDiv"></div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <?php echo $this -> form() -> closeTag($ratesForm) ?>
+        <div id="addRateDialogConfirmDiv"></div>
+    </div>
+</div>
+
+

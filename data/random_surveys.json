@@ -1,0 +1,4594 @@
+[
+    {
+        "title": "Velit ad amet excepteur anim voluptate sit proident.",
+        "description": "Est tempor adipisicing veniam eiusmod veniam eiusmod minim Lorem voluptate reprehenderit cillum consequat.",
+        "delegationLevel": "1",
+        "tags": [
+            "ferrari",
+            "osx",
+            "cioccolata",
+            "msn",
+            "house",
+            "superman",
+            "fishing"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "maestri",
+            "università",
+            "da scartare",
+            "lover",
+            "pallone",
+            "friends",
+            "antipatici"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Sit Lorem duis cillum aliquip proident excepteur aliquip culpa dolore Lorem quis commodo qui.?",
+                "type": "single",
+                "items": {
+                    "item1": "Amet non anim sint in.",
+                    "item2": "Reprehenderit dolor laboris occaecat sit."
+                }
+            },
+            "unit1": {
+                "title": "Aliqua tempor ad ea minim consectetur sit.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Et sint consequat laborum quis officia fugiat in qui cupidatat fugiat culpa.",
+                    "item2": "Nisi incididunt adipisicing sint culpa sit voluptate velit qui consequat.",
+                    "item3": "Occaecat non velit velit eiusmod sit minim."
+                }
+            },
+            "unit2": {
+                "title": "Do occaecat ad in nisi ad voluptate.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Non culpa pariatur et dolore laborum consequat id elit deserunt voluptate.",
+                    "item2": "In ipsum consequat excepteur fugiat.",
+                    "item3": "Enim laborum non ad mollit quis nisi esse ut eiusmod.",
+                    "item4": "Adipisicing voluptate reprehenderit qui quis labore eu esse ut esse dolor aliquip consectetur eiusmod exercitation.",
+                    "item5": "Ut adipisicing duis anim ipsum eiusmod ipsum consectetur nulla veniam cillum do aliqua Lorem."
+                }
+            },
+            "unit3": {
+                "title": "Occaecat laborum sint cillum reprehenderit deserunt dolore anim sunt sunt officia.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Cillum consectetur veniam aliquip excepteur enim ut magna tempor qui quis nisi eiusmod.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Officia ex reprehenderit aute laboris fugiat mollit.",
+        "description": "Nisi ut sint laborum ad consectetur est.",
+        "delegationLevel": "1",
+        "tags": [
+            "chrome",
+            "heavy",
+            "mac",
+            "fortuna",
+            "css",
+            "firefox",
+            "cats"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "girls",
+            "cari",
+            "simpatici",
+            "music",
+            "professori",
+            "pallone",
+            "university"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Enim veniam aliquip est magna labore et ullamco nulla sunt enim ut.?",
+                "type": "single",
+                "items": {
+                    "item1": "Non sunt proident fugiat eiusmod labore elit magna ut laboris mollit voluptate veniam eiusmod.",
+                    "item2": "Laboris consectetur aute dolore nisi."
+                }
+            },
+            "unit1": {
+                "title": "Eiusmod ex amet occaecat do commodo consectetur sunt irure cillum excepteur.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Dolore consequat deserunt dolor cillum sit nostrud id.",
+                    "item2": "Ut proident adipisicing qui ullamco duis eu laborum duis exercitation aliquip aute est consequat.",
+                    "item3": "Quis commodo duis elit sit sit."
+                }
+            },
+            "unit2": {
+                "title": "Do dolore anim irure incididunt sit ut aute quis velit officia.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Amet aliqua pariatur nostrud deserunt non id in laboris reprehenderit elit tempor laboris amet.",
+                    "item2": "Excepteur irure Lorem enim sit.",
+                    "item3": "Elit tempor ad proident proident sunt qui amet consequat dolor irure nisi.",
+                    "item4": "Non aliquip excepteur minim qui id consectetur do officia.",
+                    "item5": "Nulla mollit enim aliqua ipsum ex quis excepteur do dolore sint qui ullamco nulla ipsum."
+                }
+            },
+            "unit3": {
+                "title": "Et culpa est sit officia consectetur proident amet occaecat ipsum.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Est laborum tempor est voluptate aute aliquip excepteur reprehenderit in proident magna nisi quis culpa.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Magna deserunt consequat incididunt voluptate sunt voluptate dolore ullamco nisi aute do occaecat consequat.",
+        "description": "Ut dolore ullamco sunt fugiat commodo eu.",
+        "delegationLevel": "1",
+        "tags": [
+            "disco",
+            "superman",
+            "ferrari",
+            "css",
+            "case",
+            "cioccolata",
+            "restaurant"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "home",
+            "maestri",
+            "cari",
+            "friends",
+            "amanti",
+            "co-work",
+            "partners"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Cillum ut minim eiusmod veniam ex aute qui laboris.?",
+                "type": "single",
+                "items": {
+                    "item1": "Duis sit cupidatat officia consequat consequat ut nostrud nostrud culpa aliquip sit Lorem.",
+                    "item2": "Cupidatat sit veniam mollit non minim adipisicing consectetur nulla."
+                }
+            },
+            "unit1": {
+                "title": "Culpa Lorem reprehenderit qui qui ullamco tempor elit aute sit ut dolore.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Fugiat magna velit irure fugiat ullamco.",
+                    "item2": "Ea adipisicing eu officia ea.",
+                    "item3": "Consequat Lorem adipisicing tempor magna ullamco esse id dolor irure ut nisi."
+                }
+            },
+            "unit2": {
+                "title": "Qui ipsum amet laborum ex nisi qui ullamco est anim cillum.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Aute magna ad qui in ea labore id esse sint.",
+                    "item2": "Velit sit enim fugiat dolore consequat aliquip reprehenderit incididunt consectetur eiusmod amet ut.",
+                    "item3": "Ea dolor ullamco ipsum elit.",
+                    "item4": "Nulla dolor pariatur do quis et ut quis magna cillum pariatur magna adipisicing mollit ullamco.",
+                    "item5": "Minim magna magna aliquip exercitation pariatur fugiat aliqua."
+                }
+            },
+            "unit3": {
+                "title": "Duis culpa laborum amet incididunt velit irure qui excepteur cupidatat enim aliqua consequat eiusmod.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Laborum est commodo cillum commodo mollit ex irure laborum esse aliqua deserunt proident.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Nulla ipsum irure aute amet esse.",
+        "description": "Reprehenderit qui ea id magna cillum commodo nostrud irure laboris ipsum in voluptate.",
+        "delegationLevel": "1",
+        "tags": [
+            "c++",
+            "c",
+            "ferrari",
+            "java",
+            "dogs",
+            "dogs",
+            "mac"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "fidanzate",
+            "partners",
+            "partners",
+            "home",
+            "newyork",
+            "maestri",
+            "professori"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Ex ut nostrud quis sunt et quis mollit.?",
+                "type": "single",
+                "items": {
+                    "item1": "Nulla ullamco commodo duis id cupidatat ex excepteur.",
+                    "item2": "Cupidatat aute ea fugiat esse."
+                }
+            },
+            "unit1": {
+                "title": "Aliquip culpa ad proident amet commodo elit occaecat adipisicing id amet cillum.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Adipisicing in est ad sit consectetur et ullamco.",
+                    "item2": "Tempor mollit amet est proident elit laborum elit commodo.",
+                    "item3": "Ea occaecat laborum quis consequat anim voluptate est sunt culpa labore Lorem exercitation sunt nulla."
+                }
+            },
+            "unit2": {
+                "title": "Reprehenderit duis ad ex occaecat fugiat sint occaecat amet elit aliqua occaecat dolor adipisicing.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Fugiat qui et esse enim commodo fugiat consequat esse.",
+                    "item2": "Aliqua eiusmod deserunt Lorem proident velit dolore ullamco velit nulla id.",
+                    "item3": "Est do culpa consequat Lorem dolore commodo eu culpa id aute qui sit in qui.",
+                    "item4": "Est mollit sunt sint voluptate amet et ex.",
+                    "item5": "Amet minim laboris cupidatat Lorem aliquip cupidatat commodo dolor non et et consectetur."
+                }
+            },
+            "unit3": {
+                "title": "Commodo esse Lorem enim consectetur reprehenderit esse labore velit fugiat commodo ad laborum.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Incididunt Lorem quis cupidatat consectetur pariatur voluptate ex officia laborum sunt in.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Amet aliquip voluptate cillum cillum ullamco ad Lorem velit non in elit.",
+        "description": "Deserunt anim proident do fugiat labore dolore incididunt reprehenderit.",
+        "delegationLevel": "1",
+        "tags": [
+            "auto",
+            "chrome",
+            "music",
+            "cioccolata",
+            "firefox",
+            "cioccolata",
+            "firefox"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "university",
+            "maestri",
+            "da scartare",
+            "fidanzate",
+            "professori",
+            "family",
+            "amanti"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Reprehenderit nulla tempor ex consequat Lorem eu dolor ex et velit consectetur voluptate.?",
+                "type": "single",
+                "items": {
+                    "item1": "Cillum aliquip dolore ullamco dolor proident do officia.",
+                    "item2": "Ullamco nulla id cillum laborum veniam id dolor."
+                }
+            },
+            "unit1": {
+                "title": "Quis duis laboris deserunt nostrud adipisicing mollit esse ad nostrud occaecat.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Veniam esse sit dolor velit mollit magna sint nulla elit.",
+                    "item2": "Exercitation dolor adipisicing reprehenderit deserunt pariatur amet cillum ullamco esse.",
+                    "item3": "Sit ea proident occaecat pariatur excepteur commodo eiusmod et excepteur laborum."
+                }
+            },
+            "unit2": {
+                "title": "Sint culpa non culpa eiusmod consequat consectetur irure occaecat ea in do anim id qui.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Minim sunt ut quis amet ea aliqua nostrud nostrud eiusmod eiusmod sunt consectetur Lorem velit.",
+                    "item2": "Officia deserunt aliquip non sint mollit elit ad laborum exercitation mollit.",
+                    "item3": "Anim non culpa enim commodo.",
+                    "item4": "Enim esse ad excepteur consectetur culpa.",
+                    "item5": "Laborum ullamco labore nisi consectetur consectetur et irure ipsum."
+                }
+            },
+            "unit3": {
+                "title": "Eu commodo sunt sint aliquip occaecat velit quis ad esse deserunt nisi ipsum.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Lorem labore sit laborum ut in laborum proident ut.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Dolor ipsum nostrud do nisi anim cupidatat velit esse anim consequat consequat laborum.",
+        "description": "Amet aute nulla laboris laborum aliquip exercitation quis ea voluptate esse velit sit.",
+        "delegationLevel": "1",
+        "tags": [
+            "chrome",
+            "heavy",
+            "dogs",
+            "superman",
+            "firefox",
+            "chrome",
+            "msn"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "co-work",
+            "amanti",
+            "college",
+            "music",
+            "amanti",
+            "cinema",
+            "newyork"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Pariatur consequat exercitation eiusmod eu.?",
+                "type": "single",
+                "items": {
+                    "item1": "Est elit minim amet irure aliqua aliquip irure adipisicing eu nulla laboris.",
+                    "item2": "Ea occaecat elit aliquip velit duis adipisicing cillum dolor sunt ad laboris ipsum."
+                }
+            },
+            "unit1": {
+                "title": "Nostrud qui aliquip ea excepteur id magna consectetur laborum esse pariatur.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Pariatur laborum tempor consequat consequat nisi.",
+                    "item2": "Duis aute qui non ad nisi veniam sint.",
+                    "item3": "Amet ad consectetur do esse."
+                }
+            },
+            "unit2": {
+                "title": "In cillum nostrud et do laborum labore.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Labore consequat id Lorem eiusmod.",
+                    "item2": "Amet irure eiusmod nulla minim sit in nisi reprehenderit tempor ipsum ullamco sit.",
+                    "item3": "Nostrud ullamco sit excepteur culpa amet irure nulla magna ut reprehenderit.",
+                    "item4": "Velit aliquip nulla incididunt ea aliqua do est cupidatat tempor excepteur excepteur.",
+                    "item5": "Magna veniam mollit ut deserunt et enim laborum est amet esse sit veniam proident pariatur."
+                }
+            },
+            "unit3": {
+                "title": "Ex adipisicing ad excepteur culpa laborum consectetur.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Minim quis labore qui reprehenderit voluptate ea est aliqua magna elit fugiat eiusmod quis duis.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Duis ex mollit excepteur do est elit.",
+        "description": "Commodo aute ullamco deserunt pariatur labore.",
+        "delegationLevel": "1",
+        "tags": [
+            "cioccolata",
+            "json",
+            "osx",
+            "c++",
+            "university",
+            "dogs",
+            "fishing"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "college",
+            "family",
+            "partners",
+            "workers",
+            "workers",
+            "collegio",
+            "co-work"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Non deserunt minim pariatur ea velit laboris fugiat elit occaecat anim.?",
+                "type": "single",
+                "items": {
+                    "item1": "Deserunt elit cupidatat eiusmod enim ullamco anim sint ad culpa.",
+                    "item2": "Consequat officia labore occaecat deserunt ut."
+                }
+            },
+            "unit1": {
+                "title": "Sit adipisicing culpa magna fugiat excepteur proident aute Lorem proident elit enim.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Minim ut tempor ad laboris aliquip nostrud ea qui duis commodo.",
+                    "item2": "Enim esse aliqua minim culpa.",
+                    "item3": "Eu et anim aliqua in et elit non sunt."
+                }
+            },
+            "unit2": {
+                "title": "Magna laborum fugiat aliqua do ea et ipsum ea occaecat exercitation amet Lorem fugiat.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Adipisicing dolore ullamco esse tempor.",
+                    "item2": "Sit est laborum fugiat et consequat Lorem exercitation.",
+                    "item3": "Reprehenderit dolore tempor Lorem incididunt amet est.",
+                    "item4": "Ea id enim elit eu exercitation consectetur.",
+                    "item5": "Adipisicing ea proident esse laboris elit pariatur voluptate velit."
+                }
+            },
+            "unit3": {
+                "title": "Et nisi dolor amet eiusmod.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Sint voluptate eu ut veniam officia officia mollit sint cupidatat qui.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Amet amet nisi sunt proident nisi quis esse ad laborum do veniam.",
+        "description": "Culpa incididunt tempor fugiat labore nostrud ipsum deserunt do anim aute commodo.",
+        "delegationLevel": "1",
+        "tags": [
+            "videogiochi",
+            "university",
+            "music",
+            "ferrari",
+            "css",
+            "music",
+            "university"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "family",
+            "pallone",
+            "girls",
+            "co-work",
+            "newyork",
+            "ragazze",
+            "city"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Ea id cupidatat esse ullamco excepteur ad cupidatat adipisicing exercitation exercitation et qui.?",
+                "type": "single",
+                "items": {
+                    "item1": "Culpa est dolore nostrud quis ullamco ex minim fugiat proident voluptate dolor consequat.",
+                    "item2": "Ad cillum non id ad laborum commodo labore deserunt nulla quis esse Lorem."
+                }
+            },
+            "unit1": {
+                "title": "Duis nulla irure sit sit commodo laboris proident ad qui amet duis excepteur.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Consectetur excepteur aliqua enim laborum ex id ea qui magna.",
+                    "item2": "Proident mollit eu elit reprehenderit non commodo exercitation.",
+                    "item3": "Ex anim do cupidatat qui tempor aliquip."
+                }
+            },
+            "unit2": {
+                "title": "Cupidatat mollit minim ea consequat aute est magna adipisicing irure consequat.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Excepteur in fugiat adipisicing sint velit sit dolore dolor quis et ex ipsum.",
+                    "item2": "Minim sit anim non proident laboris fugiat nisi laborum mollit ipsum aliqua anim esse elit.",
+                    "item3": "Tempor nulla cillum nostrud ut consectetur.",
+                    "item4": "Aliquip irure tempor mollit est veniam.",
+                    "item5": "Incididunt nisi in ad id deserunt laboris duis cillum mollit exercitation officia cupidatat velit nulla."
+                }
+            },
+            "unit3": {
+                "title": "Nisi mollit excepteur deserunt eu.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Tempor do qui tempor irure consectetur aliqua tempor fugiat.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Ad est exercitation sint quis cillum do reprehenderit aute.",
+        "description": "Sint dolor laborum eiusmod irure laborum adipisicing pariatur tempor Lorem id cillum ullamco elit.",
+        "delegationLevel": "1",
+        "tags": [
+            "donne",
+            "chrome",
+            "case",
+            "cinema",
+            "superman",
+            "dogs",
+            "disco"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "college",
+            "amanti",
+            "city",
+            "child",
+            "cari",
+            "home",
+            "co-work"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Do dolore do laboris dolor excepteur exercitation tempor ullamco et ipsum amet Lorem laborum ea.?",
+                "type": "single",
+                "items": {
+                    "item1": "Ea dolor officia qui commodo non voluptate excepteur ullamco do ad esse ex excepteur pariatur.",
+                    "item2": "Dolore tempor ullamco nulla aliquip aliqua."
+                }
+            },
+            "unit1": {
+                "title": "Officia esse Lorem irure amet in nisi exercitation amet aliqua occaecat Lorem laboris quis sit.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Exercitation sit aliqua eiusmod aliquip non dolore quis reprehenderit dolor velit officia veniam duis.",
+                    "item2": "Aliquip consectetur sint quis mollit.",
+                    "item3": "Dolore velit Lorem nostrud magna fugiat aute mollit proident voluptate quis sit duis qui deserunt."
+                }
+            },
+            "unit2": {
+                "title": "Esse ullamco ut do Lorem consequat enim velit qui minim eiusmod fugiat.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Laboris fugiat et eiusmod sunt officia laborum adipisicing velit sit non.",
+                    "item2": "Eiusmod elit nisi tempor culpa esse.",
+                    "item3": "Elit ullamco adipisicing cillum dolore amet aliquip exercitation qui.",
+                    "item4": "Adipisicing sunt ipsum velit commodo non aliqua pariatur ad minim veniam fugiat consectetur nostrud minim.",
+                    "item5": "Ex aliqua ea nisi proident id."
+                }
+            },
+            "unit3": {
+                "title": "Ea culpa nostrud incididunt ut eu velit dolor amet laborum eu ex.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Nulla reprehenderit ex et magna.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Ex excepteur culpa deserunt ullamco.",
+        "description": "Non et velit id laborum deserunt.",
+        "delegationLevel": "1",
+        "tags": [
+            "c++",
+            "css",
+            "superman",
+            "cats",
+            "chrome",
+            "restaurant",
+            "osx"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "fidanzate",
+            "music",
+            "parents",
+            "università",
+            "workers",
+            "workers",
+            "family"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Ea dolore ipsum aute adipisicing do excepteur veniam aliqua incididunt officia sint qui.?",
+                "type": "single",
+                "items": {
+                    "item1": "Consequat laboris adipisicing aliqua tempor fugiat cupidatat proident anim veniam.",
+                    "item2": "In ea tempor aute Lorem laborum eiusmod ea ipsum veniam nostrud aliqua officia."
+                }
+            },
+            "unit1": {
+                "title": "Ipsum ex commodo ipsum aute dolor mollit consequat ut dolore pariatur nostrud.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Nulla Lorem consequat ad mollit.",
+                    "item2": "Fugiat ut occaecat pariatur excepteur sunt aute.",
+                    "item3": "Anim elit cillum enim ut qui laborum consectetur nostrud ad sit excepteur."
+                }
+            },
+            "unit2": {
+                "title": "Aliqua id mollit qui ad.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Laborum commodo velit eu ex pariatur nostrud occaecat elit.",
+                    "item2": "Aliquip do irure exercitation reprehenderit irure sunt dolore enim sit exercitation officia aliquip adipisicing minim.",
+                    "item3": "Laborum ea laborum anim irure nostrud incididunt occaecat Lorem ut tempor ullamco est ea.",
+                    "item4": "Eiusmod labore irure commodo sit dolor nulla occaecat deserunt duis.",
+                    "item5": "Ex dolor voluptate Lorem laboris Lorem incididunt."
+                }
+            },
+            "unit3": {
+                "title": "Nulla ipsum nostrud ipsum ex incididunt laborum dolore amet Lorem occaecat ipsum.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Sunt et minim ea duis culpa nostrud dolore.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Ex elit commodo aliquip ea aliqua ut mollit consectetur laborum officia.",
+        "description": "Consequat irure labore dolore laborum magna irure pariatur eu et consectetur velit consequat ipsum id.",
+        "delegationLevel": "1",
+        "tags": [
+            "music",
+            "restaurant",
+            "c",
+            "university",
+            "heavy",
+            "fishing",
+            "disco"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "cinema",
+            "newyork",
+            "girls",
+            "lover",
+            "partners",
+            "lover",
+            "collegio"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Officia exercitation elit deserunt magna adipisicing culpa reprehenderit ullamco sit Lorem elit labore.?",
+                "type": "single",
+                "items": {
+                    "item1": "Eiusmod voluptate aliqua tempor adipisicing eiusmod id.",
+                    "item2": "Sit nulla mollit anim excepteur nulla fugiat exercitation adipisicing anim Lorem dolore sunt occaecat nostrud."
+                }
+            },
+            "unit1": {
+                "title": "Anim excepteur Lorem aute pariatur.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Cillum labore consectetur nulla quis.",
+                    "item2": "Amet cupidatat excepteur sit est deserunt labore.",
+                    "item3": "Minim aliquip officia aliqua ad aute voluptate commodo minim excepteur nostrud deserunt."
+                }
+            },
+            "unit2": {
+                "title": "Cillum laboris incididunt id sunt tempor nisi adipisicing mollit ad.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "In nulla in officia elit mollit quis ipsum ipsum occaecat excepteur anim velit aute.",
+                    "item2": "Anim est minim in ipsum adipisicing eiusmod cupidatat.",
+                    "item3": "Aute eu aliquip do ullamco voluptate quis consectetur consequat et aute.",
+                    "item4": "Reprehenderit irure laborum occaecat tempor ex laboris voluptate occaecat nisi labore.",
+                    "item5": "Sit ex elit ea excepteur aliqua."
+                }
+            },
+            "unit3": {
+                "title": "Dolor labore id dolor do esse nulla sint.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Sit culpa esse deserunt tempor labore ea qui consectetur officia sunt cupidatat minim.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Exercitation eiusmod consectetur nostrud dolore pariatur excepteur labore eiusmod.",
+        "description": "Qui magna ea voluptate dolore exercitation.",
+        "delegationLevel": "1",
+        "tags": [
+            "chocolate",
+            "python",
+            "dogs",
+            "fishing",
+            "giocattoli",
+            "chrome",
+            "java"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "professori",
+            "city",
+            "collegio",
+            "cinema",
+            "workers",
+            "co-work",
+            "child"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Commodo sint voluptate aliquip dolore est laboris.?",
+                "type": "single",
+                "items": {
+                    "item1": "Aute ea et adipisicing ullamco incididunt nostrud ut.",
+                    "item2": "Commodo et aliquip voluptate deserunt sit veniam commodo."
+                }
+            },
+            "unit1": {
+                "title": "Ex id quis dolor esse irure velit cillum non eu reprehenderit incididunt in.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Consectetur commodo occaecat ut dolore nostrud minim exercitation dolor.",
+                    "item2": "Quis proident ad ad ipsum aliqua est enim.",
+                    "item3": "Enim minim aliquip tempor enim irure eiusmod voluptate reprehenderit consectetur sint anim ullamco duis excepteur."
+                }
+            },
+            "unit2": {
+                "title": "Tempor officia sint fugiat enim elit velit.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Ad culpa sint et culpa adipisicing irure sit minim amet nulla et.",
+                    "item2": "Mollit voluptate culpa aliquip proident labore nostrud excepteur do laborum do quis.",
+                    "item3": "Est aliqua do dolor ipsum laboris velit eu nulla do ipsum cupidatat.",
+                    "item4": "Id ut ea nostrud minim ipsum exercitation minim veniam enim.",
+                    "item5": "Duis pariatur cupidatat irure nostrud id."
+                }
+            },
+            "unit3": {
+                "title": "Amet laboris sit reprehenderit elit consectetur voluptate aliqua exercitation incididunt quis ut velit dolor est.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Proident est excepteur mollit voluptate.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Irure do id cupidatat do et labore ut.",
+        "description": "Ullamco ea sit dolore esse velit.",
+        "delegationLevel": "1",
+        "tags": [
+            "java",
+            "python",
+            "c++",
+            "python",
+            "house",
+            "cioccolata",
+            "house"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "parents",
+            "girls",
+            "partners",
+            "partners",
+            "antipatici",
+            "workers",
+            "music"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Non sunt officia ipsum commodo magna eu occaecat ex nisi.?",
+                "type": "single",
+                "items": {
+                    "item1": "Commodo minim labore consectetur nulla nisi exercitation enim veniam ad deserunt aliqua sit enim.",
+                    "item2": "Nulla qui et ea adipisicing nulla sit ullamco qui in non incididunt."
+                }
+            },
+            "unit1": {
+                "title": "Ut consequat eu sunt labore voluptate incididunt nostrud exercitation.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Qui dolor officia cillum nostrud quis ex Lorem nulla ullamco nostrud.",
+                    "item2": "Est ut adipisicing commodo duis consectetur eu reprehenderit enim tempor veniam deserunt id ullamco reprehenderit.",
+                    "item3": "Cupidatat ullamco dolore ipsum est ut eu et dolore nostrud amet nisi mollit eu aliqua."
+                }
+            },
+            "unit2": {
+                "title": "Ea qui qui dolor ex excepteur laboris exercitation.?",
+                "type": "shultze",
+            	"mean": "",
+            	"variance":"",
+                "items": {
+                    "item1": "Deserunt excepteur sunt enim exercitation quis ullamco sit nostrud laboris eu sit est eiusmod.",
+                    "item2": "Pariatur dolore deserunt do reprehenderit occaecat dolor minim labore ea.",
+                    "item3": "In officia laboris veniam laboris nostrud ullamco.",
+                    "item4": "Officia irure quis minim do nisi fugiat elit amet do deserunt ut aliquip.",
+                    "item5": "Duis labore sint veniam nulla aliqua duis esse nisi eu."
+                }
+            },
+            "unit3": {
+                "title": "Ut minim commodo qui nisi culpa non nostrud in ex voluptate consequat esse aute laborum.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Lorem proident mollit ullamco reprehenderit elit ipsum qui consequat.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Sit irure sit duis Lorem laboris eiusmod do aliquip.",
+        "description": "Aliqua est est eiusmod minim dolore.",
+        "delegationLevel": "1",
+        "tags": [
+            "cats",
+            "fortuna",
+            "python",
+            "ferrari",
+            "auto",
+            "auto",
+            "osx"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "partners",
+            "professori",
+            "workers",
+            "child",
+            "professori",
+            "child",
+            "antipatici"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Cillum consectetur cillum eiusmod ex esse quis sit mollit pariatur ea ut ullamco.?",
+                "type": "single",
+                "items": {
+                    "item1": "Sint anim duis laboris fugiat pariatur dolor do.",
+                    "item2": "Dolor cupidatat pariatur exercitation occaecat id aliqua non exercitation est duis in culpa ullamco."
+                }
+            },
+            "unit1": {
+                "title": "Dolor proident fugiat ea dolor sunt eu pariatur minim cupidatat pariatur.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Consequat labore elit do proident qui irure elit culpa mollit cillum laborum.",
+                    "item2": "Id duis excepteur irure irure cillum eu.",
+                    "item3": "Magna sit reprehenderit in voluptate elit amet tempor cillum consectetur adipisicing ullamco officia."
+                }
+            },
+            "unit2": {
+                "title": "Reprehenderit et enim esse elit consequat.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Labore amet consequat incididunt minim adipisicing non.",
+                    "item2": "Pariatur Lorem officia laborum et elit elit anim commodo nulla occaecat pariatur laborum duis voluptate.",
+                    "item3": "Qui eiusmod deserunt incididunt deserunt laborum.",
+                    "item4": "Laborum dolor qui culpa consectetur labore pariatur culpa elit aliquip quis Lorem Lorem est.",
+                    "item5": "Elit aliqua id tempor in proident consequat esse minim ullamco sunt."
+                }
+            },
+            "unit3": {
+                "title": "Aliqua nisi duis ex aliquip tempor laborum proident Lorem deserunt consequat ullamco aute.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Non magna culpa aliquip cupidatat ea magna ut fugiat proident.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Dolor nostrud sit ipsum officia.",
+        "description": "Quis nisi ad commodo id veniam cupidatat dolore proident cillum Lorem magna nostrud mollit.",
+        "delegationLevel": "1",
+        "tags": [
+            "music",
+            "msn",
+            "chocolate",
+            "chocolate",
+            "giocattoli",
+            "disco",
+            "giocattoli"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "girls",
+            "partners",
+            "college",
+            "antipatici",
+            "cari",
+            "co-work",
+            "music"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Culpa veniam mollit enim est dolor id labore excepteur adipisicing laborum.?",
+                "type": "single",
+                "items": {
+                    "item1": "Culpa aliqua tempor reprehenderit esse esse.",
+                    "item2": "Do voluptate pariatur nulla mollit."
+                }
+            },
+            "unit1": {
+                "title": "Fugiat nisi et ad est anim non ea consectetur.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Enim fugiat mollit voluptate enim nulla nulla sint aliqua veniam mollit laborum proident.",
+                    "item2": "Dolore ut nulla sit eu incididunt in officia non elit aliqua sit aliqua.",
+                    "item3": "Exercitation ad duis est sunt ad aliqua mollit duis sint ex."
+                }
+            },
+            "unit2": {
+                "title": "Culpa culpa nisi consectetur et occaecat quis esse eu.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Sint cupidatat proident culpa sunt tempor qui ad sint Lorem nisi elit nostrud magna proident.",
+                    "item2": "Ex ipsum sit ea nisi irure do nisi fugiat.",
+                    "item3": "Nulla commodo fugiat commodo pariatur mollit enim do nisi.",
+                    "item4": "Ea quis do proident sint elit ad officia duis ea Lorem aliqua occaecat id.",
+                    "item5": "Ut labore quis aliquip pariatur exercitation."
+                }
+            },
+            "unit3": {
+                "title": "Voluptate amet amet et id incididunt quis ad.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Officia laborum cupidatat do deserunt duis esse labore nulla et eu nulla occaecat.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Proident ullamco ea officia nisi labore ipsum nulla consectetur et sit.",
+        "description": "Id laboris proident velit duis exercitation eiusmod Lorem id exercitation occaecat elit laboris duis minim.",
+        "delegationLevel": "1",
+        "tags": [
+            "cinema",
+            "chocolate",
+            "heavy",
+            "cioccolata",
+            "case",
+            "c++",
+            "c++"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "maestri",
+            "amanti",
+            "pallone",
+            "child",
+            "fidanzate",
+            "workers",
+            "workers"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Est consequat officia quis ipsum do aliqua.?",
+                "type": "single",
+                "items": {
+                    "item1": "Amet labore veniam eiusmod elit officia nisi id consequat fugiat cillum et ipsum cillum adipisicing.",
+                    "item2": "Do consectetur veniam mollit reprehenderit sint enim eiusmod ipsum et sunt non."
+                }
+            },
+            "unit1": {
+                "title": "Adipisicing cillum id quis aliquip laboris laboris commodo anim in eu ad.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Ullamco fugiat cupidatat labore sunt dolore et et ea deserunt mollit pariatur consectetur amet sunt.",
+                    "item2": "Nostrud duis nostrud labore quis.",
+                    "item3": "Nostrud officia non consectetur enim ut cillum."
+                }
+            },
+            "unit2": {
+                "title": "Sint sit dolor incididunt culpa magna non non reprehenderit sit magna.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Aliquip officia Lorem nulla est in cupidatat velit non.",
+                    "item2": "Ipsum mollit ad eu fugiat laboris est excepteur anim consectetur id mollit sunt cillum commodo.",
+                    "item3": "Excepteur quis minim ex proident commodo cillum minim consectetur.",
+                    "item4": "Excepteur exercitation aute tempor fugiat dolor ipsum ullamco elit officia in.",
+                    "item5": "Qui tempor enim eiusmod veniam excepteur nostrud nisi fugiat in."
+                }
+            },
+            "unit3": {
+                "title": "Velit fugiat elit ad excepteur esse qui.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Anim mollit ullamco ut labore irure incididunt ex.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Dolore proident non aliqua consectetur tempor reprehenderit in ipsum pariatur Lorem et non in sit.",
+        "description": "Duis aliqua ut amet tempor pariatur sunt amet eiusmod Lorem.",
+        "delegationLevel": "1",
+        "tags": [
+            "disco",
+            "c++",
+            "java",
+            "chrome",
+            "msn",
+            "case",
+            "css"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "newyork",
+            "cari",
+            "university",
+            "antipatici",
+            "amanti",
+            "college",
+            "da scartare"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Amet mollit excepteur labore occaecat aliqua esse elit ut mollit eu magna in dolor consequat.?",
+                "type": "single",
+                "items": {
+                    "item1": "Lorem elit ullamco ad amet id quis amet dolore eiusmod veniam.",
+                    "item2": "Quis minim ea esse laboris eu consectetur mollit nulla in sint velit ut."
+                }
+            },
+            "unit1": {
+                "title": "In dolor labore consequat aute deserunt qui pariatur qui tempor et dolor.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Exercitation occaecat non quis laboris id incididunt voluptate quis culpa proident ullamco labore adipisicing sint.",
+                    "item2": "Sint ad consequat pariatur id eu.",
+                    "item3": "Dolor qui non laboris laborum et."
+                }
+            },
+            "unit2": {
+                "title": "Dolore in ex culpa est ipsum occaecat id enim Lorem.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Culpa non duis non labore fugiat ut.",
+                    "item2": "Aliquip sit adipisicing laboris veniam excepteur labore dolor do enim anim id aliquip quis.",
+                    "item3": "Mollit ipsum cupidatat amet elit elit dolore reprehenderit fugiat nostrud.",
+                    "item4": "Do tempor aute enim labore incididunt ea laboris deserunt consectetur commodo velit ut id ad.",
+                    "item5": "Labore quis fugiat nisi mollit non."
+                }
+            },
+            "unit3": {
+                "title": "Enim voluptate pariatur fugiat commodo pariatur.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Minim ut minim nisi id magna velit.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Non nulla irure irure eu ea eiusmod quis duis dolore voluptate ullamco nisi cupidatat occaecat.",
+        "description": "Eu dolore ea occaecat dolor mollit velit cillum.",
+        "delegationLevel": "1",
+        "tags": [
+            "osx",
+            "fortuna",
+            "chrome",
+            "chrome",
+            "disco",
+            "mac",
+            "university"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "city",
+            "pallone",
+            "amanti",
+            "girls",
+            "family",
+            "friends",
+            "co-work"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Cupidatat non sunt laboris consectetur elit sunt.?",
+                "type": "single",
+                "items": {
+                    "item1": "Cupidatat exercitation ullamco aliqua sit in voluptate id excepteur consectetur ea sint cillum velit ipsum.",
+                    "item2": "Ex consectetur dolor consectetur aliqua occaecat cillum anim quis occaecat aliquip adipisicing culpa aliqua tempor."
+                }
+            },
+            "unit1": {
+                "title": "Duis aliqua dolor voluptate labore cupidatat laboris quis veniam amet quis.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Pariatur id ex elit amet.",
+                    "item2": "Excepteur aliqua duis quis magna consectetur Lorem officia et reprehenderit irure eu commodo.",
+                    "item3": "Reprehenderit velit dolore cillum irure ullamco pariatur eu quis."
+                }
+            },
+            "unit2": {
+                "title": "Labore ut est et ad anim cillum esse fugiat nostrud amet ipsum non aliquip.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Nostrud do ipsum ipsum eu sit occaecat.",
+                    "item2": "Lorem anim cillum enim aute mollit voluptate.",
+                    "item3": "Exercitation aute in duis excepteur quis dolore Lorem nostrud dolor magna adipisicing.",
+                    "item4": "Do ad ut ullamco voluptate proident excepteur quis eu do.",
+                    "item5": "Irure reprehenderit sunt sit anim cillum ullamco esse consectetur proident adipisicing occaecat dolor."
+                }
+            },
+            "unit3": {
+                "title": "Velit id ipsum voluptate duis sit ea exercitation excepteur anim irure ea.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Ex velit id magna aute nisi sit cillum ea cupidatat tempor ad cupidatat do consequat.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Ad amet veniam ipsum irure proident veniam incididunt nostrud est nostrud anim deserunt officia ipsum.",
+        "description": "Cupidatat eiusmod fugiat elit occaecat ut id cillum quis commodo sint consequat veniam laborum.",
+        "delegationLevel": "1",
+        "tags": [
+            "chocolate",
+            "donne",
+            "music",
+            "university",
+            "restaurant",
+            "json",
+            "heavy"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "city",
+            "lover",
+            "newyork",
+            "fidanzate",
+            "pallone",
+            "cinema",
+            "da scartare"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "In tempor consectetur labore eiusmod.?",
+                "type": "single",
+                "items": {
+                    "item1": "Sint minim aliqua tempor dolor aliquip laboris cupidatat Lorem.",
+                    "item2": "Enim esse sit labore ullamco."
+                }
+            },
+            "unit1": {
+                "title": "Sint magna cupidatat ex dolor laboris ea.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Ipsum veniam quis in anim nulla ipsum.",
+                    "item2": "Est proident enim exercitation cillum pariatur exercitation non et dolore duis duis adipisicing aliqua.",
+                    "item3": "Voluptate pariatur minim adipisicing nulla nulla non aute fugiat excepteur occaecat esse ut sit."
+                }
+            },
+            "unit2": {
+                "title": "Laborum et enim fugiat aute Lorem.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Proident pariatur dolor minim excepteur dolore est irure nisi.",
+                    "item2": "Aute proident pariatur nulla anim minim amet eu ea dolor reprehenderit esse laborum mollit nisi.",
+                    "item3": "Ad sunt enim minim Lorem non sunt id esse veniam voluptate enim.",
+                    "item4": "Culpa dolor nulla dolore id nulla irure.",
+                    "item5": "Dolore aute deserunt est amet."
+                }
+            },
+            "unit3": {
+                "title": "Id adipisicing deserunt occaecat excepteur.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Est cillum sunt dolore culpa excepteur fugiat labore.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Magna incididunt Lorem non fugiat qui enim reprehenderit sunt tempor aute.",
+        "description": "Quis non in nisi aute aliqua veniam voluptate mollit ullamco quis nisi proident labore est.",
+        "delegationLevel": "1",
+        "tags": [
+            "cioccolata",
+            "music",
+            "music",
+            "mac",
+            "giocattoli",
+            "mac",
+            "firefox"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "maestri",
+            "da scartare",
+            "fidanzate",
+            "fidanzate",
+            "lover",
+            "cari",
+            "simpatici"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Voluptate enim aute in officia adipisicing id eu exercitation anim officia pariatur deserunt dolore quis.?",
+                "type": "single",
+                "items": {
+                    "item1": "Dolor esse sint esse aute ad eu magna aliqua dolor enim quis enim nostrud nisi.",
+                    "item2": "Ullamco id sit sit id officia eu sint aute do magna."
+                }
+            },
+            "unit1": {
+                "title": "Ad cupidatat est irure et eiusmod amet ex excepteur laborum.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Eu officia consequat aliquip anim qui ea in ad officia pariatur laborum duis commodo veniam.",
+                    "item2": "Aliqua labore occaecat aute qui.",
+                    "item3": "Ut enim excepteur nulla nostrud aliqua id deserunt velit."
+                }
+            },
+            "unit2": {
+                "title": "Amet dolor sint adipisicing ex excepteur.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Cillum consequat non amet est eu voluptate laboris ullamco proident ad consectetur.",
+                    "item2": "Duis elit dolore sit ea quis.",
+                    "item3": "Minim reprehenderit occaecat exercitation pariatur mollit elit enim cupidatat.",
+                    "item4": "Anim dolor laboris non voluptate fugiat.",
+                    "item5": "Proident cupidatat anim elit officia consequat velit non."
+                }
+            },
+            "unit3": {
+                "title": "Labore laborum laboris duis quis consequat consectetur officia amet et culpa incididunt fugiat aliquip ea.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Magna occaecat eu sint proident mollit consequat velit ullamco.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Nostrud in aliqua nostrud aliquip adipisicing minim velit amet.",
+        "description": "Ex consectetur ad ex veniam cillum aute tempor ullamco ad.",
+        "delegationLevel": "1",
+        "tags": [
+            "disco",
+            "restaurant",
+            "c++",
+            "auto",
+            "university",
+            "chrome",
+            "case"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "girls",
+            "newyork",
+            "family",
+            "partners",
+            "professori",
+            "amanti",
+            "fidanzate"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Eiusmod aute adipisicing ea mollit voluptate.?",
+                "type": "single",
+                "items": {
+                    "item1": "Irure deserunt consequat fugiat cillum ex velit reprehenderit nulla consequat reprehenderit mollit amet.",
+                    "item2": "Enim tempor est anim in qui."
+                }
+            },
+            "unit1": {
+                "title": "Mollit sunt consequat qui incididunt reprehenderit exercitation sunt.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Lorem proident anim excepteur fugiat quis esse sint incididunt in enim dolor consectetur dolore.",
+                    "item2": "Labore id voluptate sit voluptate Lorem excepteur exercitation enim proident et reprehenderit aliqua.",
+                    "item3": "Minim commodo proident magna aliquip cillum occaecat."
+                }
+            },
+            "unit2": {
+                "title": "Eu culpa laboris exercitation incididunt id veniam adipisicing consequat.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Reprehenderit fugiat est elit id veniam consequat.",
+                    "item2": "Labore irure labore aliquip proident nulla nulla culpa sint voluptate eiusmod.",
+                    "item3": "Veniam mollit cupidatat nostrud irure.",
+                    "item4": "Esse esse incididunt qui ad minim.",
+                    "item5": "Tempor non Lorem labore et exercitation sunt elit duis duis esse."
+                }
+            },
+            "unit3": {
+                "title": "Deserunt proident occaecat ea sint.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Laborum ullamco Lorem esse aliquip officia tempor cupidatat consequat cupidatat eiusmod laborum do.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Culpa ex adipisicing sunt sit aute ad amet voluptate Lorem labore nostrud officia id.",
+        "description": "Do pariatur aliquip labore adipisicing mollit.",
+        "delegationLevel": "1",
+        "tags": [
+            "superman",
+            "donne",
+            "case",
+            "java",
+            "fortuna",
+            "music",
+            "chrome"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "co-work",
+            "pallone",
+            "workers",
+            "child",
+            "lover",
+            "lover",
+            "university"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Lorem irure consectetur dolore laborum adipisicing.?",
+                "type": "single",
+                "items": {
+                    "item1": "Veniam officia nulla pariatur tempor cupidatat.",
+                    "item2": "Anim magna aliquip ad minim laborum culpa ullamco ex sit voluptate aliqua elit."
+                }
+            },
+            "unit1": {
+                "title": "Culpa reprehenderit duis nisi ullamco.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Cupidatat consequat ex officia enim laboris laboris adipisicing irure pariatur culpa nisi qui minim.",
+                    "item2": "Non minim ullamco Lorem exercitation ipsum sunt.",
+                    "item3": "Fugiat elit labore incididunt voluptate culpa."
+                }
+            },
+            "unit2": {
+                "title": "Eiusmod esse dolore id elit consectetur aliquip adipisicing cillum tempor cillum.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Commodo tempor veniam consequat nostrud labore amet cupidatat sint officia.",
+                    "item2": "Elit voluptate magna quis minim quis magna ut.",
+                    "item3": "Lorem exercitation amet quis consectetur nulla.",
+                    "item4": "Velit nulla aute pariatur nulla in laboris amet consectetur veniam qui minim irure.",
+                    "item5": "Mollit magna cillum amet quis qui."
+                }
+            },
+            "unit3": {
+                "title": "Labore in Lorem adipisicing pariatur Lorem adipisicing deserunt.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Aliquip ullamco pariatur cillum qui sint ex et incididunt elit.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Sit dolore nisi adipisicing anim anim magna.",
+        "description": "Non Lorem mollit duis ea sunt labore id voluptate irure aute magna sit esse.",
+        "delegationLevel": "1",
+        "tags": [
+            "fortuna",
+            "osx",
+            "music",
+            "cats",
+            "dogs",
+            "cats",
+            "donne"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "newyork",
+            "co-work",
+            "collegio",
+            "lover",
+            "girls",
+            "antipatici",
+            "university"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Proident ea proident elit culpa nisi aute aute anim officia minim.?",
+                "type": "single",
+                "items": {
+                    "item1": "Ut nostrud amet eiusmod dolore fugiat officia dolor incididunt.",
+                    "item2": "Tempor dolor sunt officia est eiusmod labore in."
+                }
+            },
+            "unit1": {
+                "title": "Incididunt do veniam sint amet deserunt.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Labore officia aute eiusmod cupidatat irure nostrud commodo mollit sint magna excepteur pariatur.",
+                    "item2": "Ullamco ad ullamco reprehenderit deserunt.",
+                    "item3": "Do aliqua ad consectetur ipsum amet et id sunt dolore elit."
+                }
+            },
+            "unit2": {
+                "title": "Qui incididunt dolor consequat sunt occaecat dolore non incididunt laboris do ea reprehenderit proident dolore.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Labore labore deserunt ullamco aliquip.",
+                    "item2": "Dolore culpa do eiusmod consequat Lorem qui.",
+                    "item3": "Exercitation duis reprehenderit elit pariatur in nulla.",
+                    "item4": "Proident voluptate laboris sunt in.",
+                    "item5": "Tempor veniam nulla eu id non occaecat aute fugiat amet voluptate consequat."
+                }
+            },
+            "unit3": {
+                "title": "Pariatur mollit deserunt ut nostrud consequat proident.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Proident mollit deserunt esse laboris culpa amet irure occaecat cillum Lorem ea in.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Exercitation duis tempor reprehenderit dolor nulla officia velit velit duis sint.",
+        "description": "Exercitation adipisicing enim culpa proident reprehenderit.",
+        "delegationLevel": "1",
+        "tags": [
+            "disco",
+            "case",
+            "osx",
+            "java",
+            "donne",
+            "videogiochi",
+            "osx"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "simpatici",
+            "ragazze",
+            "co-work",
+            "pallone",
+            "amanti",
+            "fidanzate",
+            "collegio"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Eu non laborum ullamco aliquip esse mollit.?",
+                "type": "single",
+                "items": {
+                    "item1": "Dolore pariatur magna minim eiusmod.",
+                    "item2": "Ipsum culpa dolor anim et Lorem pariatur proident esse do minim aliqua."
+                }
+            },
+            "unit1": {
+                "title": "Veniam officia consectetur proident ea commodo proident incididunt aliqua nisi officia.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Ex enim id consectetur est nulla qui sint velit cillum non commodo labore excepteur.",
+                    "item2": "Commodo sunt ipsum nisi officia reprehenderit voluptate.",
+                    "item3": "In enim ad ea pariatur sunt voluptate culpa eiusmod adipisicing dolore esse ad ex."
+                }
+            },
+            "unit2": {
+                "title": "Voluptate aliquip pariatur Lorem duis amet excepteur est non cupidatat officia pariatur.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Irure voluptate aliquip minim veniam.",
+                    "item2": "In cillum eu tempor voluptate proident qui cupidatat.",
+                    "item3": "Consectetur aute eu tempor ut aliqua duis exercitation qui commodo occaecat ea.",
+                    "item4": "Tempor occaecat Lorem ex tempor.",
+                    "item5": "Ut consequat eiusmod reprehenderit sint reprehenderit qui minim sint occaecat laboris ad ipsum nisi aliqua."
+                }
+            },
+            "unit3": {
+                "title": "Qui sint voluptate pariatur ex culpa incididunt.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Commodo enim do qui anim mollit ullamco Lorem sit eiusmod veniam non.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Culpa id dolore aliquip enim duis ea enim.",
+        "description": "Reprehenderit aliquip consequat laboris nostrud minim enim dolore velit elit.",
+        "delegationLevel": "1",
+        "tags": [
+            "house",
+            "videogiochi",
+            "ferrari",
+            "heavy",
+            "firefox",
+            "music",
+            "java"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "pallone",
+            "collegio",
+            "workers",
+            "friends",
+            "music",
+            "ragazze",
+            "simpatici"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Veniam elit veniam commodo nulla nulla velit aute commodo nulla adipisicing qui culpa.?",
+                "type": "single",
+                "items": {
+                    "item1": "Culpa magna pariatur qui velit voluptate mollit qui excepteur.",
+                    "item2": "Non labore Lorem proident aliquip consequat ullamco cupidatat."
+                }
+            },
+            "unit1": {
+                "title": "Eiusmod consectetur adipisicing irure commodo id.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Culpa anim anim pariatur nisi nulla amet cillum nulla voluptate magna ea.",
+                    "item2": "Non ea occaecat culpa cupidatat laboris mollit ullamco duis ex sit sint.",
+                    "item3": "Sunt cillum voluptate nisi sint eu aute est."
+                }
+            },
+            "unit2": {
+                "title": "Amet dolore reprehenderit duis excepteur fugiat dolore.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Enim in do quis dolore qui nulla commodo sint ea ea in.",
+                    "item2": "Mollit in ea non aliqua cupidatat veniam incididunt est incididunt minim ad in.",
+                    "item3": "Excepteur exercitation eiusmod incididunt sit laboris eu nostrud anim sit irure nostrud aliqua fugiat culpa.",
+                    "item4": "Lorem duis proident in consectetur ea magna excepteur adipisicing excepteur.",
+                    "item5": "Nisi ex velit officia amet est aute officia ipsum consequat et."
+                }
+            },
+            "unit3": {
+                "title": "Occaecat irure velit magna Lorem occaecat.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Incididunt occaecat laborum exercitation sunt.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Ipsum tempor dolor fugiat duis cupidatat occaecat adipisicing cupidatat voluptate veniam ea.",
+        "description": "Aliquip irure et laborum nostrud excepteur consequat ad Lorem laboris ipsum reprehenderit culpa.",
+        "delegationLevel": "1",
+        "tags": [
+            "restaurant",
+            "cioccolata",
+            "heavy",
+            "chrome",
+            "fishing",
+            "fun",
+            "house"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "college",
+            "lover",
+            "amanti",
+            "da scartare",
+            "family",
+            "home",
+            "antipatici"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Labore adipisicing laborum id nostrud eiusmod adipisicing aliquip ut fugiat.?",
+                "type": "single",
+                "items": {
+                    "item1": "Excepteur velit sit esse commodo labore sint occaecat laboris.",
+                    "item2": "Consequat in aliqua excepteur fugiat proident laborum aute dolore quis enim irure."
+                }
+            },
+            "unit1": {
+                "title": "Nostrud irure sint fugiat anim proident nulla qui nisi.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Adipisicing quis anim laborum dolor et mollit labore elit aliquip eu qui in elit.",
+                    "item2": "Excepteur minim veniam non id.",
+                    "item3": "Id cupidatat anim aute nisi ipsum id est."
+                }
+            },
+            "unit2": {
+                "title": "Dolor pariatur excepteur sunt duis reprehenderit exercitation anim ex enim voluptate.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Reprehenderit laboris nisi proident occaecat est ullamco anim.",
+                    "item2": "Aliqua dolor sint in aliqua excepteur velit.",
+                    "item3": "Eiusmod veniam labore minim sint sunt est cupidatat.",
+                    "item4": "Minim est labore in ad eu sunt culpa fugiat occaecat.",
+                    "item5": "Id mollit laborum qui ad dolor esse esse."
+                }
+            },
+            "unit3": {
+                "title": "Aliqua excepteur proident elit nostrud veniam ullamco excepteur nisi.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Tempor aute culpa ut velit laborum amet veniam consequat consectetur ullamco id qui ad.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Est consequat aliquip labore anim velit occaecat mollit aliquip elit.",
+        "description": "Tempor minim eu culpa anim adipisicing nulla labore aliquip amet incididunt labore laborum magna.",
+        "delegationLevel": "1",
+        "tags": [
+            "case",
+            "chrome",
+            "music",
+            "ferrari",
+            "heavy",
+            "fortuna",
+            "osx"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "workers",
+            "cinema",
+            "cinema",
+            "child",
+            "simpatici",
+            "co-work",
+            "simpatici"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Nulla exercitation non anim pariatur velit.?",
+                "type": "single",
+                "items": {
+                    "item1": "Eu ut ut veniam nisi eu.",
+                    "item2": "Irure do est enim consectetur qui consectetur excepteur non."
+                }
+            },
+            "unit1": {
+                "title": "Esse est ex occaecat do.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Ullamco officia occaecat excepteur eiusmod.",
+                    "item2": "Ipsum nisi est eiusmod enim est id adipisicing culpa.",
+                    "item3": "Ad labore adipisicing excepteur et aliquip aliquip quis reprehenderit eu dolor."
+                }
+            },
+            "unit2": {
+                "title": "Deserunt nisi eiusmod aliquip deserunt sint minim do culpa ullamco proident est dolor magna.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Elit anim ex reprehenderit irure proident eiusmod velit aute.",
+                    "item2": "Ut cillum ea ad ex excepteur reprehenderit elit dolor voluptate.",
+                    "item3": "Non mollit magna sunt minim.",
+                    "item4": "Sit elit do nulla sunt quis cupidatat.",
+                    "item5": "Dolor reprehenderit ex eu tempor sint exercitation proident labore."
+                }
+            },
+            "unit3": {
+                "title": "Duis minim labore pariatur laborum incididunt occaecat voluptate duis nisi occaecat ad duis irure.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Irure nostrud tempor tempor anim aute consequat deserunt deserunt minim in adipisicing enim.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Commodo et veniam laboris voluptate elit consequat incididunt anim.",
+        "description": "Sunt eu elit esse do do fugiat culpa proident velit.",
+        "delegationLevel": "1",
+        "tags": [
+            "python",
+            "fishing",
+            "cinema",
+            "java",
+            "css",
+            "fortuna",
+            "java"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "da scartare",
+            "antipatici",
+            "newyork",
+            "music",
+            "da scartare",
+            "cinema",
+            "fidanzate"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Reprehenderit fugiat ut sit veniam nulla mollit.?",
+                "type": "single",
+                "items": {
+                    "item1": "Adipisicing fugiat sint proident quis nulla velit dolore Lorem exercitation amet.",
+                    "item2": "Enim dolore consequat nulla nulla amet Lorem amet magna dolor velit in nulla."
+                }
+            },
+            "unit1": {
+                "title": "Ex fugiat duis non duis adipisicing ad veniam dolore proident.?",
+                "type": "multi",
+                "items": {
+                    "item1": "In ea sint officia consectetur.",
+                    "item2": "Sunt ut ea dolor sit et laboris enim non.",
+                    "item3": "Cupidatat duis mollit duis consequat irure ad."
+                }
+            },
+            "unit2": {
+                "title": "Qui velit dolore ut labore ut nulla aute magna.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Aute dolor aute ut nostrud pariatur in proident eu in magna fugiat.",
+                    "item2": "Voluptate ullamco ad aute incididunt occaecat in sit.",
+                    "item3": "Duis amet mollit dolor mollit consectetur dolore.",
+                    "item4": "Tempor nostrud minim magna adipisicing aliquip nulla in nulla labore proident amet do deserunt.",
+                    "item5": "Esse dolore sint commodo voluptate id irure."
+                }
+            },
+            "unit3": {
+                "title": "Aliqua cupidatat aliquip quis id Lorem ea.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Occaecat non commodo ex dolore do.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Dolor Lorem consectetur eiusmod pariatur consequat dolore nostrud incididunt fugiat sint laborum aute.",
+        "description": "Aute enim proident consectetur irure deserunt dolor id enim laborum laborum consequat ex ex.",
+        "delegationLevel": "1",
+        "tags": [
+            "music",
+            "java",
+            "c++",
+            "msn",
+            "c",
+            "auto",
+            "auto"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "collegio",
+            "cari",
+            "child",
+            "home",
+            "workers",
+            "university",
+            "pallone"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Ex enim labore aute sint proident qui aliquip.?",
+                "type": "single",
+                "items": {
+                    "item1": "Id eiusmod nostrud consectetur consequat deserunt ut reprehenderit qui aliquip nulla duis eiusmod.",
+                    "item2": "Voluptate sunt nostrud cillum consequat exercitation fugiat deserunt ullamco quis fugiat consequat qui mollit consectetur."
+                }
+            },
+            "unit1": {
+                "title": "Ipsum dolore laboris velit nulla occaecat amet officia.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Ea esse minim quis mollit id laboris elit elit aliqua.",
+                    "item2": "Cupidatat anim est ad anim tempor enim anim.",
+                    "item3": "Ad id Lorem excepteur occaecat do voluptate."
+                }
+            },
+            "unit2": {
+                "title": "Aliquip dolore laborum nostrud aliquip ad elit est commodo Lorem nisi dolor enim deserunt.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Fugiat est ipsum Lorem anim aute proident dolor fugiat ipsum culpa.",
+                    "item2": "Quis eiusmod et nulla aliquip.",
+                    "item3": "Aute veniam dolor dolor laborum quis.",
+                    "item4": "Proident et culpa aliqua ad occaecat ipsum ipsum non ex sint amet tempor occaecat.",
+                    "item5": "Ex veniam ex adipisicing fugiat veniam nisi."
+                }
+            },
+            "unit3": {
+                "title": "Ea aute cupidatat nulla commodo.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Elit non occaecat excepteur proident dolor quis duis duis.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Reprehenderit dolor non fugiat veniam amet fugiat voluptate nulla dolore duis sit cupidatat.",
+        "description": "Laboris deserunt officia do qui veniam.",
+        "delegationLevel": "1",
+        "tags": [
+            "osx",
+            "disco",
+            "donne",
+            "house",
+            "css",
+            "donne",
+            "chocolate"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "parents",
+            "family",
+            "music",
+            "collegio",
+            "fidanzate",
+            "college",
+            "lover"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Ut eu anim dolor duis exercitation elit culpa nostrud excepteur cillum ut ad occaecat.?",
+                "type": "single",
+                "items": {
+                    "item1": "Ullamco nostrud adipisicing veniam enim eu nostrud.",
+                    "item2": "Culpa proident culpa voluptate id."
+                }
+            },
+            "unit1": {
+                "title": "Id ea ea non aute proident duis labore quis ad proident.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Aute eiusmod ad incididunt aliquip elit cillum nisi.",
+                    "item2": "Irure cupidatat minim duis proident esse amet commodo deserunt velit consectetur pariatur.",
+                    "item3": "Eu eu pariatur in velit proident dolore nulla dolor tempor."
+                }
+            },
+            "unit2": {
+                "title": "Dolore officia consequat culpa quis labore eu nostrud fugiat excepteur sit.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Enim do consectetur et sunt deserunt fugiat Lorem ut ipsum labore labore.",
+                    "item2": "Magna adipisicing laboris est non enim consequat non magna dolore esse sint.",
+                    "item3": "Proident id nostrud dolor elit consequat magna in elit nulla et eu.",
+                    "item4": "Exercitation nostrud commodo labore elit ad ullamco culpa officia.",
+                    "item5": "Culpa deserunt in nostrud elit do."
+                }
+            },
+            "unit3": {
+                "title": "Lorem eiusmod nulla irure aliqua consequat aliqua elit non laboris proident id ipsum et.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Exercitation et qui dolor culpa.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Irure eu tempor minim sunt laboris incididunt incididunt mollit ipsum do quis ad.",
+        "description": "Cillum est ea nostrud reprehenderit commodo.",
+        "delegationLevel": "1",
+        "tags": [
+            "c",
+            "house",
+            "python",
+            "heavy",
+            "chocolate",
+            "auto",
+            "music"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "pallone",
+            "pallone",
+            "parents",
+            "co-work",
+            "workers",
+            "newyork",
+            "simpatici"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Enim dolore eiusmod eiusmod nostrud eu occaecat incididunt.?",
+                "type": "single",
+                "items": {
+                    "item1": "Dolore amet mollit ad ut occaecat Lorem.",
+                    "item2": "Mollit nostrud deserunt ut minim laboris aliquip dolor aliquip."
+                }
+            },
+            "unit1": {
+                "title": "Nisi sit cupidatat ut sunt consequat id adipisicing dolor adipisicing.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Officia ad non incididunt excepteur non aliquip sunt sit veniam ad eiusmod commodo dolore amet.",
+                    "item2": "Reprehenderit ipsum dolore ut esse et voluptate qui Lorem et nisi aliquip occaecat ut elit.",
+                    "item3": "Commodo dolor deserunt amet consectetur ipsum Lorem ex ullamco nulla sint cupidatat voluptate non."
+                }
+            },
+            "unit2": {
+                "title": "Occaecat reprehenderit aute minim est est laborum magna excepteur aliqua voluptate adipisicing incididunt deserunt laborum.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "In fugiat nulla cupidatat culpa occaecat et commodo reprehenderit culpa voluptate ipsum nostrud.",
+                    "item2": "Sunt ad voluptate incididunt voluptate esse dolor exercitation tempor et incididunt culpa excepteur sunt voluptate.",
+                    "item3": "Voluptate aliqua ullamco pariatur amet nisi culpa excepteur voluptate.",
+                    "item4": "Eiusmod velit cupidatat commodo aliqua minim consectetur est dolor consectetur.",
+                    "item5": "Non consectetur tempor officia elit laborum ex excepteur aliquip consequat."
+                }
+            },
+            "unit3": {
+                "title": "Pariatur sint amet qui ad velit deserunt sit labore incididunt voluptate ea eiusmod magna do.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Laboris dolore in minim aute esse officia dolor enim ea.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Consectetur pariatur quis dolor quis Lorem quis ullamco cupidatat ad.",
+        "description": "Mollit ex exercitation anim dolore velit sunt aliquip consectetur id sint ipsum deserunt.",
+        "delegationLevel": "1",
+        "tags": [
+            "c++",
+            "giocattoli",
+            "chocolate",
+            "firefox",
+            "python",
+            "json",
+            "c"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "child",
+            "girls",
+            "simpatici",
+            "college",
+            "simpatici",
+            "professori",
+            "city"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Laboris cupidatat Lorem adipisicing exercitation amet fugiat duis occaecat.?",
+                "type": "single",
+                "items": {
+                    "item1": "Officia eiusmod nostrud in duis consectetur elit.",
+                    "item2": "Veniam quis minim irure adipisicing est nulla Lorem cupidatat mollit commodo velit."
+                }
+            },
+            "unit1": {
+                "title": "Ex enim Lorem dolor consequat cillum aliqua non eu esse deserunt laborum velit aliqua.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Esse quis mollit enim aliquip ea reprehenderit dolore enim non nostrud esse enim.",
+                    "item2": "Cupidatat veniam irure nulla nostrud.",
+                    "item3": "Consectetur ad fugiat veniam irure excepteur quis mollit labore ullamco ullamco minim ex."
+                }
+            },
+            "unit2": {
+                "title": "Veniam non amet excepteur excepteur id dolor excepteur ex ullamco cillum voluptate ea.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Eu ex non labore aliqua officia ut anim laborum ea cillum labore enim.",
+                    "item2": "Sunt consectetur do excepteur sit culpa est laboris do exercitation laborum.",
+                    "item3": "Id incididunt consequat aliqua et cupidatat tempor et occaecat et nisi.",
+                    "item4": "Consequat qui duis exercitation elit amet excepteur est ullamco duis veniam exercitation.",
+                    "item5": "Proident pariatur incididunt dolore aute nostrud."
+                }
+            },
+            "unit3": {
+                "title": "Magna aliqua ipsum ad ex tempor est et tempor dolor excepteur aute excepteur do culpa.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Amet mollit amet commodo duis et fugiat consequat ullamco est Lorem proident nostrud proident.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Officia dolor minim ea magna.",
+        "description": "Occaecat sunt elit magna officia deserunt velit.",
+        "delegationLevel": "1",
+        "tags": [
+            "ferrari",
+            "css",
+            "java",
+            "fishing",
+            "university",
+            "cats",
+            "heavy"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "university",
+            "girls",
+            "pallone",
+            "professori",
+            "simpatici",
+            "amanti",
+            "lover"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Nostrud et esse laborum mollit cillum cillum non.?",
+                "type": "single",
+                "items": {
+                    "item1": "Id veniam eu enim ullamco.",
+                    "item2": "Dolor quis minim id velit voluptate esse laboris irure velit."
+                }
+            },
+            "unit1": {
+                "title": "Dolor adipisicing eiusmod ad sunt nostrud id ad adipisicing sint aliquip fugiat.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Exercitation ex elit ut nostrud voluptate aliqua ad eu ad exercitation mollit consectetur magna ullamco.",
+                    "item2": "Est sunt ipsum proident pariatur sunt aute fugiat.",
+                    "item3": "Duis minim aute ullamco laboris veniam commodo laboris sit officia."
+                }
+            },
+            "unit2": {
+                "title": "Ullamco enim esse dolor ipsum laboris id ipsum qui adipisicing non veniam sit.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Fugiat sunt adipisicing aliqua ad laborum amet consectetur do do non culpa dolore nostrud ex.",
+                    "item2": "Minim id et enim magna nulla quis.",
+                    "item3": "Incididunt sint ea Lorem elit elit et deserunt pariatur.",
+                    "item4": "Ex ut commodo quis est laborum proident ad exercitation consectetur.",
+                    "item5": "Non consequat est tempor proident exercitation nulla proident et non laborum et do in."
+                }
+            },
+            "unit3": {
+                "title": "Id occaecat exercitation veniam deserunt.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Non pariatur amet nisi nisi minim.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Dolor officia voluptate deserunt proident aliqua ea commodo laborum aute eu sit reprehenderit occaecat eu.",
+        "description": "Nisi id amet reprehenderit exercitation minim excepteur minim ut nostrud.",
+        "delegationLevel": "1",
+        "tags": [
+            "videogiochi",
+            "superman",
+            "disco",
+            "fishing",
+            "heavy",
+            "ferrari",
+            "auto"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "co-work",
+            "home",
+            "professori",
+            "girls",
+            "cinema",
+            "fidanzate",
+            "collegio"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Voluptate deserunt officia exercitation ipsum sunt deserunt.?",
+                "type": "single",
+                "items": {
+                    "item1": "Aliqua laboris ullamco consequat ullamco commodo veniam adipisicing est.",
+                    "item2": "Ea ex anim ut et."
+                }
+            },
+            "unit1": {
+                "title": "Sint ad aliquip occaecat eu est id irure pariatur exercitation aliqua occaecat sit reprehenderit.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Do aliqua laborum quis anim aute laboris ullamco.",
+                    "item2": "Duis officia exercitation ex incididunt sunt occaecat Lorem labore cupidatat cillum fugiat.",
+                    "item3": "Labore ad magna velit Lorem veniam ipsum tempor enim velit fugiat."
+                }
+            },
+            "unit2": {
+                "title": "Nulla pariatur commodo veniam non.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Non ex amet qui Lorem nulla mollit velit.",
+                    "item2": "Ullamco velit pariatur enim consectetur consequat elit.",
+                    "item3": "Nulla qui culpa minim ea deserunt adipisicing qui enim velit.",
+                    "item4": "Incididunt adipisicing sunt Lorem est deserunt cillum ipsum.",
+                    "item5": "Consequat reprehenderit quis cupidatat aliqua esse."
+                }
+            },
+            "unit3": {
+                "title": "Laboris deserunt consequat ut voluptate incididunt fugiat.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Quis sit officia esse fugiat irure occaecat reprehenderit aute eu voluptate in deserunt irure magna.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Commodo pariatur sint ipsum veniam cillum ut ut tempor voluptate do est amet officia est.",
+        "description": "Culpa enim exercitation nostrud officia dolor ut.",
+        "delegationLevel": "1",
+        "tags": [
+            "auto",
+            "ferrari",
+            "auto",
+            "restaurant",
+            "case",
+            "auto",
+            "restaurant"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "workers",
+            "workers",
+            "university",
+            "ragazze",
+            "antipatici",
+            "friends",
+            "da scartare"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Proident minim veniam adipisicing deserunt ea consectetur labore commodo nostrud Lorem.?",
+                "type": "single",
+                "items": {
+                    "item1": "Ipsum sit velit irure deserunt aute ut officia.",
+                    "item2": "Ea laboris aliquip qui veniam consectetur."
+                }
+            },
+            "unit1": {
+                "title": "In ut excepteur mollit do ea culpa esse eiusmod.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Lorem proident fugiat consectetur aliqua laborum esse quis in aliqua minim reprehenderit dolor non.",
+                    "item2": "Nisi sint tempor eiusmod magna.",
+                    "item3": "Tempor cillum culpa duis aute culpa duis duis ipsum."
+                }
+            },
+            "unit2": {
+                "title": "Veniam cillum officia et esse et reprehenderit incididunt officia officia reprehenderit esse voluptate.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Reprehenderit nisi sunt consectetur ad aliqua nostrud esse.",
+                    "item2": "Minim elit exercitation ex Lorem tempor esse culpa anim.",
+                    "item3": "Ea minim aute quis ullamco aliquip labore non.",
+                    "item4": "Dolor duis irure ipsum officia labore elit velit.",
+                    "item5": "Nulla anim ex sint nulla ex in sit do aute ad esse exercitation ullamco aliquip."
+                }
+            },
+            "unit3": {
+                "title": "Mollit labore sint minim anim.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Dolor in aliquip pariatur non amet occaecat do in amet.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Eiusmod dolore non cillum excepteur exercitation et dolor elit.",
+        "description": "Laborum voluptate eu qui esse mollit pariatur exercitation sit consequat.",
+        "delegationLevel": "1",
+        "tags": [
+            "mac",
+            "cioccolata",
+            "giocattoli",
+            "disco",
+            "c++",
+            "restaurant",
+            "heavy"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "amanti",
+            "co-work",
+            "professori",
+            "university",
+            "università",
+            "parents",
+            "partners"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Aliqua dolore eiusmod dolor consequat amet incididunt sit magna anim sit id.?",
+                "type": "single",
+                "items": {
+                    "item1": "Eu magna enim ea excepteur commodo excepteur.",
+                    "item2": "Sint eiusmod laboris do fugiat ex voluptate."
+                }
+            },
+            "unit1": {
+                "title": "Incididunt tempor excepteur ipsum nisi duis aute excepteur occaecat nostrud aute ea aliquip anim exercitation.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Est eu eiusmod incididunt et fugiat adipisicing nulla veniam ad amet.",
+                    "item2": "Fugiat aliquip laboris aliqua duis occaecat.",
+                    "item3": "Officia nulla eiusmod laborum qui magna consequat anim reprehenderit adipisicing duis occaecat deserunt pariatur."
+                }
+            },
+            "unit2": {
+                "title": "Tempor eiusmod cupidatat sint quis tempor ipsum.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Qui est duis occaecat non minim eu anim culpa exercitation incididunt mollit.",
+                    "item2": "Id reprehenderit Lorem incididunt aute cillum anim nisi aliquip dolore.",
+                    "item3": "Veniam labore nisi aute voluptate quis ut laboris.",
+                    "item4": "Adipisicing in dolore officia ad fugiat voluptate est duis occaecat anim.",
+                    "item5": "Reprehenderit aliqua dolore pariatur anim nostrud ullamco id eu sunt excepteur dolor."
+                }
+            },
+            "unit3": {
+                "title": "Culpa eiusmod dolore aute laboris dolor in velit proident.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Cupidatat mollit ad ex do ex enim nulla do.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Ipsum reprehenderit officia labore irure aliquip qui sunt non deserunt.",
+        "description": "Minim sit aute eiusmod nisi amet excepteur adipisicing nulla.",
+        "delegationLevel": "1",
+        "tags": [
+            "university",
+            "giocattoli",
+            "dogs",
+            "c",
+            "java",
+            "university",
+            "c++"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "simpatici",
+            "university",
+            "professori",
+            "parents",
+            "friends",
+            "professori",
+            "child"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Mollit sint sunt eiusmod magna Lorem non tempor ea mollit.?",
+                "type": "single",
+                "items": {
+                    "item1": "Anim eiusmod nostrud dolore nostrud et cupidatat culpa culpa.",
+                    "item2": "Ea mollit labore cupidatat commodo elit minim elit cupidatat consectetur dolore commodo."
+                }
+            },
+            "unit1": {
+                "title": "Culpa officia aliqua tempor tempor elit irure cupidatat.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Amet ut occaecat do labore culpa duis culpa labore anim reprehenderit ea fugiat ullamco eu.",
+                    "item2": "Duis ut ullamco ut anim ut non et Lorem.",
+                    "item3": "Nisi enim veniam aute eiusmod ex nulla anim officia id."
+                }
+            },
+            "unit2": {
+                "title": "Labore dolore ipsum Lorem labore minim mollit ullamco velit sunt do.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Adipisicing anim eiusmod culpa labore do consequat ut in do incididunt.",
+                    "item2": "Irure proident adipisicing commodo nostrud.",
+                    "item3": "Deserunt labore tempor fugiat commodo proident voluptate Lorem dolore sint duis ea amet cupidatat proident.",
+                    "item4": "Lorem amet laborum consectetur consequat veniam.",
+                    "item5": "Ex eu officia proident incididunt."
+                }
+            },
+            "unit3": {
+                "title": "Lorem sunt eiusmod labore pariatur irure nostrud dolore amet ullamco nisi.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Laborum voluptate laboris voluptate reprehenderit non irure esse aliqua.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Ipsum fugiat velit cillum nulla consectetur voluptate ullamco ex ad reprehenderit est.",
+        "description": "Fugiat officia non magna est.",
+        "delegationLevel": "1",
+        "tags": [
+            "fortuna",
+            "disco",
+            "chrome",
+            "house",
+            "superman",
+            "videogiochi",
+            "java"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "family",
+            "co-work",
+            "professori",
+            "workers",
+            "ragazze",
+            "family",
+            "family"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Consectetur qui reprehenderit aliquip enim cupidatat veniam ex nisi aute consectetur amet eu nostrud irure.?",
+                "type": "single",
+                "items": {
+                    "item1": "Consequat sint reprehenderit veniam laboris ea qui eu ipsum nisi commodo.",
+                    "item2": "Sunt tempor deserunt magna commodo consectetur aute laborum cupidatat officia id reprehenderit."
+                }
+            },
+            "unit1": {
+                "title": "Magna deserunt irure qui dolore cillum laborum ipsum qui non incididunt.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Sit laboris irure esse dolore occaecat cillum Lorem nisi nulla voluptate.",
+                    "item2": "Amet aute anim officia voluptate.",
+                    "item3": "Deserunt exercitation laborum elit quis quis non officia."
+                }
+            },
+            "unit2": {
+                "title": "Tempor exercitation id pariatur labore.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Amet nostrud eiusmod anim reprehenderit do sit amet duis reprehenderit in nulla ut.",
+                    "item2": "Non nisi culpa commodo ut laborum ex aute dolor sunt minim voluptate consectetur.",
+                    "item3": "Non nisi aliqua elit minim nostrud labore dolor consectetur id eiusmod ullamco labore aliqua.",
+                    "item4": "Sit nostrud aliquip eiusmod fugiat cupidatat id do aliqua est ad.",
+                    "item5": "Irure nostrud ut dolor pariatur laborum ad ipsum aliquip."
+                }
+            },
+            "unit3": {
+                "title": "Ex dolore ea laboris laborum culpa minim do laborum.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Excepteur Lorem do veniam aliquip fugiat sit ullamco aliquip proident do incididunt velit culpa ut.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Magna id sunt deserunt minim.",
+        "description": "Cupidatat id ipsum occaecat voluptate nisi velit voluptate qui deserunt est do dolore culpa ut.",
+        "delegationLevel": "1",
+        "tags": [
+            "case",
+            "fishing",
+            "ferrari",
+            "java",
+            "dogs",
+            "fortuna",
+            "fishing"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "amanti",
+            "ragazze",
+            "pallone",
+            "co-work",
+            "maestri",
+            "università",
+            "università"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Sint officia ad velit nisi adipisicing nulla labore nisi sit sit ad nulla officia.?",
+                "type": "single",
+                "items": {
+                    "item1": "Dolor nulla minim eu non minim nostrud cupidatat adipisicing laboris enim.",
+                    "item2": "Velit nisi sit occaecat laboris et et enim aute aliqua adipisicing minim."
+                }
+            },
+            "unit1": {
+                "title": "Amet fugiat anim deserunt tempor est est ex.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Sunt nulla tempor duis culpa reprehenderit.",
+                    "item2": "Deserunt commodo dolor dolor id nostrud sit magna Lorem proident fugiat ipsum aliqua amet.",
+                    "item3": "Pariatur voluptate consectetur nisi incididunt quis."
+                }
+            },
+            "unit2": {
+                "title": "Eiusmod deserunt ea sunt id non minim tempor ex cillum in.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Do deserunt velit laboris ea.",
+                    "item2": "Incididunt dolor exercitation commodo ex velit laboris amet.",
+                    "item3": "Nisi consequat aute dolore voluptate duis consequat aliqua est ipsum qui.",
+                    "item4": "Mollit ea duis ea ut anim ipsum commodo velit.",
+                    "item5": "Amet officia nisi occaecat incididunt officia nulla adipisicing adipisicing nisi nostrud non aute laborum voluptate."
+                }
+            },
+            "unit3": {
+                "title": "Esse sint pariatur labore aliqua elit.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Consectetur ipsum sit nisi irure officia excepteur qui.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Deserunt deserunt excepteur quis ex mollit sit proident sint mollit nostrud nisi ea tempor aute.",
+        "description": "Officia laboris laborum dolore dolor ipsum reprehenderit amet fugiat velit esse qui.",
+        "delegationLevel": "1",
+        "tags": [
+            "auto",
+            "python",
+            "osx",
+            "python",
+            "disco",
+            "donne",
+            "fun"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "home",
+            "university",
+            "professori",
+            "antipatici",
+            "music",
+            "family",
+            "collegio"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Magna enim enim nisi velit in irure in.?",
+                "type": "single",
+                "items": {
+                    "item1": "Excepteur magna ut dolore sint nostrud ea.",
+                    "item2": "Sunt enim culpa labore mollit ea et incididunt."
+                }
+            },
+            "unit1": {
+                "title": "Eu sunt excepteur ex culpa cupidatat quis et deserunt aliquip et consequat ullamco adipisicing deserunt.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Duis id cupidatat ad magna.",
+                    "item2": "Magna id aliqua veniam ut anim fugiat velit consequat enim Lorem qui commodo laborum.",
+                    "item3": "Qui in incididunt elit eiusmod dolore nulla."
+                }
+            },
+            "unit2": {
+                "title": "Lorem magna enim culpa ullamco duis magna.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Ex incididunt pariatur duis ut reprehenderit Lorem dolor tempor occaecat ex adipisicing ad.",
+                    "item2": "Labore sint sint anim eu ut cillum quis qui consectetur reprehenderit.",
+                    "item3": "Elit sunt tempor dolore fugiat reprehenderit Lorem reprehenderit laborum enim.",
+                    "item4": "Ullamco deserunt cillum deserunt duis ut ullamco est laborum.",
+                    "item5": "Lorem dolor velit amet excepteur commodo cillum anim culpa dolore amet occaecat quis tempor sint."
+                }
+            },
+            "unit3": {
+                "title": "Adipisicing et nulla ex quis.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Cillum duis qui mollit duis commodo et id ad eiusmod dolore.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Proident pariatur enim dolor voluptate ut exercitation.",
+        "description": "Consectetur proident aliquip dolore mollit deserunt et commodo sunt sit qui nostrud.",
+        "delegationLevel": "1",
+        "tags": [
+            "disco",
+            "firefox",
+            "dogs",
+            "fun",
+            "dogs",
+            "chocolate",
+            "fun"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "simpatici",
+            "cari",
+            "city",
+            "college",
+            "home",
+            "child",
+            "co-work"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Excepteur consectetur velit sunt nisi ipsum excepteur id officia sit nostrud.?",
+                "type": "single",
+                "items": {
+                    "item1": "Adipisicing labore fugiat pariatur aliquip labore labore ad nostrud non duis quis exercitation et.",
+                    "item2": "Culpa ea ex minim nostrud reprehenderit id incididunt duis fugiat."
+                }
+            },
+            "unit1": {
+                "title": "Consectetur ullamco exercitation aliqua in nulla.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Qui minim incididunt et cupidatat.",
+                    "item2": "Ipsum reprehenderit excepteur ea ipsum dolor eu in est.",
+                    "item3": "Ipsum consequat occaecat Lorem exercitation eu ea aliqua consectetur eiusmod in proident."
+                }
+            },
+            "unit2": {
+                "title": "Commodo eiusmod laborum velit qui laboris aliqua excepteur excepteur minim.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Voluptate nisi pariatur in voluptate amet aute fugiat sunt exercitation deserunt nulla commodo quis ipsum.",
+                    "item2": "Et aliqua mollit consequat elit eu.",
+                    "item3": "Enim ut quis non sint proident consectetur aliqua magna id ex proident.",
+                    "item4": "Non labore ex aliqua consectetur excepteur excepteur tempor cupidatat ex anim ullamco fugiat sunt ut.",
+                    "item5": "Amet culpa ea irure officia ad exercitation consequat mollit reprehenderit esse dolore dolore nulla dolor."
+                }
+            },
+            "unit3": {
+                "title": "Mollit sint commodo enim minim ipsum cupidatat eiusmod ea reprehenderit velit sunt tempor nostrud pariatur.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Eiusmod ullamco ex laboris in cupidatat aute esse.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Enim cupidatat ut et nostrud reprehenderit.",
+        "description": "Elit reprehenderit non laborum Lorem consequat proident enim velit sint.",
+        "delegationLevel": "1",
+        "tags": [
+            "msn",
+            "osx",
+            "python",
+            "donne",
+            "heavy",
+            "restaurant",
+            "c"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "da scartare",
+            "partners",
+            "partners",
+            "università",
+            "girls",
+            "cari",
+            "college"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Veniam voluptate nisi do officia voluptate incididunt labore velit tempor aute.?",
+                "type": "single",
+                "items": {
+                    "item1": "Amet cillum aliqua in enim laborum consequat.",
+                    "item2": "Exercitation anim ut nulla labore labore laborum adipisicing irure aliqua consequat."
+                }
+            },
+            "unit1": {
+                "title": "Sit minim culpa enim eu aliqua nisi nisi pariatur ea aliqua.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Veniam labore aliquip qui in aliqua labore exercitation do incididunt cupidatat cillum Lorem in cupidatat.",
+                    "item2": "Proident sint enim ea cillum id ex commodo consectetur tempor.",
+                    "item3": "Anim proident labore enim do eu nulla."
+                }
+            },
+            "unit2": {
+                "title": "Sint enim nisi reprehenderit adipisicing ad culpa voluptate.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Esse esse sunt quis adipisicing consectetur mollit.",
+                    "item2": "Est dolor occaecat eu ut eiusmod non occaecat eu ipsum.",
+                    "item3": "Magna deserunt eu ea occaecat amet voluptate elit magna qui ipsum mollit commodo.",
+                    "item4": "Culpa cupidatat occaecat mollit et in adipisicing dolore deserunt reprehenderit irure enim aliqua eu.",
+                    "item5": "Adipisicing cupidatat sint exercitation esse dolor."
+                }
+            },
+            "unit3": {
+                "title": "Ullamco non velit non ea eiusmod et ea incididunt nostrud exercitation quis ex.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Reprehenderit consequat ullamco Lorem consectetur consequat aute non.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Laboris ea incididunt ullamco ut.",
+        "description": "Cillum magna sit esse enim sint sunt adipisicing.",
+        "delegationLevel": "1",
+        "tags": [
+            "mac",
+            "case",
+            "c",
+            "university",
+            "json",
+            "fortuna",
+            "fishing"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "music",
+            "city",
+            "professori",
+            "simpatici",
+            "collegio",
+            "simpatici",
+            "lover"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Sunt ut et qui ad proident nostrud eiusmod est cupidatat.?",
+                "type": "single",
+                "items": {
+                    "item1": "Ea minim pariatur est voluptate commodo velit exercitation aliquip reprehenderit.",
+                    "item2": "Eu et amet eu id cupidatat sint irure dolore adipisicing ex reprehenderit cillum in esse."
+                }
+            },
+            "unit1": {
+                "title": "Magna nulla consectetur sunt eu quis anim irure exercitation officia.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Reprehenderit dolor commodo officia fugiat voluptate commodo consequat ipsum incididunt.",
+                    "item2": "Adipisicing magna eiusmod ipsum aliquip sit esse laboris qui ex voluptate deserunt id.",
+                    "item3": "Aute esse commodo voluptate et ea fugiat est cillum ipsum enim veniam voluptate ad adipisicing."
+                }
+            },
+            "unit2": {
+                "title": "Commodo dolor occaecat dolore ad ut tempor ex ullamco quis non.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Fugiat aliqua consectetur in proident ipsum pariatur.",
+                    "item2": "Laboris laborum deserunt amet anim laborum eu est tempor.",
+                    "item3": "Esse id est voluptate reprehenderit excepteur.",
+                    "item4": "Adipisicing reprehenderit velit elit aute elit voluptate ad dolore mollit.",
+                    "item5": "Irure fugiat consectetur ipsum ex."
+                }
+            },
+            "unit3": {
+                "title": "Excepteur esse cillum excepteur et fugiat excepteur mollit et nisi aliquip sunt.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "In duis ad voluptate voluptate dolor.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Aute nisi eiusmod incididunt aute non ad.",
+        "description": "Cillum sint Lorem ullamco id ullamco Lorem non dolore veniam elit.",
+        "delegationLevel": "1",
+        "tags": [
+            "house",
+            "css",
+            "msn",
+            "c++",
+            "university",
+            "osx",
+            "firefox"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "university",
+            "fidanzate",
+            "workers",
+            "family",
+            "cari",
+            "cari",
+            "child"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Est adipisicing esse elit laboris.?",
+                "type": "single",
+                "items": {
+                    "item1": "Elit ad reprehenderit duis ad tempor.",
+                    "item2": "Et nulla amet proident anim."
+                }
+            },
+            "unit1": {
+                "title": "Adipisicing reprehenderit elit eiusmod laboris deserunt eiusmod deserunt sit culpa irure.?",
+                "type": "multi",
+                "items": {
+                    "item1": "In velit sint ex id enim quis adipisicing non.",
+                    "item2": "Nisi labore nisi incididunt nulla laborum aute reprehenderit enim Lorem labore fugiat veniam.",
+                    "item3": "Anim labore deserunt minim anim enim adipisicing duis adipisicing adipisicing sint quis."
+                }
+            },
+            "unit2": {
+                "title": "Quis ullamco ullamco est qui anim id incididunt.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Quis Lorem proident anim aliquip voluptate irure ex veniam veniam.",
+                    "item2": "Ut eiusmod duis adipisicing enim minim dolore id ea.",
+                    "item3": "Et ea nulla deserunt adipisicing excepteur nostrud ullamco pariatur duis.",
+                    "item4": "Aliqua et proident in ut Lorem fugiat culpa irure sint eu ipsum adipisicing do ex.",
+                    "item5": "Laboris consequat aliquip fugiat id nisi incididunt et."
+                }
+            },
+            "unit3": {
+                "title": "Exercitation eiusmod dolore aliquip occaecat minim.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Ad magna dolor quis mollit reprehenderit do.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Cillum consequat nisi consequat eu nulla proident officia nulla deserunt Lorem Lorem ad dolor.",
+        "description": "Esse laboris adipisicing irure fugiat ex et id ullamco consectetur.",
+        "delegationLevel": "1",
+        "tags": [
+            "fortuna",
+            "fortuna",
+            "json",
+            "university",
+            "fishing",
+            "firefox",
+            "house"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "college",
+            "home",
+            "amanti",
+            "city",
+            "da scartare",
+            "college",
+            "professori"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Aliqua ipsum ipsum ea Lorem amet veniam officia sunt consequat.?",
+                "type": "single",
+                "items": {
+                    "item1": "Anim aliqua deserunt exercitation labore magna ea occaecat.",
+                    "item2": "Mollit dolore et enim cupidatat quis Lorem excepteur."
+                }
+            },
+            "unit1": {
+                "title": "Et eiusmod laboris amet pariatur deserunt ut labore aliquip ipsum eiusmod aliqua proident commodo id.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Labore do voluptate qui cupidatat nostrud cillum ipsum laborum ad id non esse in nulla.",
+                    "item2": "Sunt duis minim irure ut sunt aute eiusmod eiusmod fugiat non ex tempor.",
+                    "item3": "Sint eu aute voluptate pariatur nostrud non sunt nisi laborum fugiat sint exercitation reprehenderit."
+                }
+            },
+            "unit2": {
+                "title": "Laboris Lorem commodo labore aliquip culpa Lorem aliqua ex.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Labore culpa et deserunt voluptate excepteur est ad incididunt nisi veniam pariatur aliqua pariatur amet.",
+                    "item2": "Elit labore nostrud qui minim sint ut nulla adipisicing.",
+                    "item3": "Incididunt ea deserunt Lorem cupidatat eiusmod do proident amet.",
+                    "item4": "Quis amet exercitation sunt labore enim consectetur.",
+                    "item5": "Amet cupidatat proident excepteur culpa ea tempor."
+                }
+            },
+            "unit3": {
+                "title": "Veniam velit id mollit commodo.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Quis occaecat anim in consequat laboris aliquip enim irure.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Culpa consequat occaecat proident laborum incididunt aliqua eu in reprehenderit minim deserunt cupidatat.",
+        "description": "Dolore mollit tempor enim voluptate ipsum dolore dolor ex.",
+        "delegationLevel": "1",
+        "tags": [
+            "music",
+            "chocolate",
+            "python",
+            "java",
+            "ferrari",
+            "c",
+            "chocolate"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "pallone",
+            "ragazze",
+            "co-work",
+            "lover",
+            "friends",
+            "ragazze",
+            "ragazze"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Aute magna ea nostrud aliqua.?",
+                "type": "single",
+                "items": {
+                    "item1": "Duis aliquip occaecat deserunt esse culpa eiusmod pariatur.",
+                    "item2": "Amet velit aliquip qui sunt."
+                }
+            },
+            "unit1": {
+                "title": "Nisi non deserunt labore fugiat ullamco incididunt est magna exercitation sit eiusmod.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Ad labore in ea exercitation cupidatat sunt quis.",
+                    "item2": "Aute eiusmod amet dolore reprehenderit cupidatat id adipisicing laborum cupidatat dolor.",
+                    "item3": "Anim sint eu nulla in tempor amet nulla eiusmod dolor."
+                }
+            },
+            "unit2": {
+                "title": "Ullamco qui laboris est anim dolore amet duis ex nulla laboris magna excepteur reprehenderit.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Ullamco magna sunt officia esse voluptate consectetur mollit duis proident est amet commodo consequat.",
+                    "item2": "Veniam sunt consequat officia quis laborum magna cillum.",
+                    "item3": "Aliqua magna commodo culpa culpa veniam aliqua ex ea qui ea.",
+                    "item4": "Fugiat ullamco in quis duis deserunt ad laborum ex est anim occaecat.",
+                    "item5": "Proident est esse deserunt cupidatat do sint pariatur ut."
+                }
+            },
+            "unit3": {
+                "title": "In mollit irure quis duis do minim.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Id magna exercitation aliquip in velit irure ipsum mollit duis nulla in qui ipsum ut.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Esse nostrud laborum fugiat consectetur Lorem minim sunt deserunt incididunt cupidatat eu laborum excepteur culpa.",
+        "description": "Et labore cillum nisi voluptate sunt ad.",
+        "delegationLevel": "1",
+        "tags": [
+            "c",
+            "house",
+            "chocolate",
+            "fortuna",
+            "c++",
+            "osx",
+            "firefox"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "da scartare",
+            "newyork",
+            "antipatici",
+            "simpatici",
+            "girls",
+            "professori",
+            "friends"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Eu exercitation mollit pariatur veniam veniam mollit magna cupidatat.?",
+                "type": "single",
+                "items": {
+                    "item1": "Fugiat reprehenderit cupidatat laborum cupidatat amet ea elit eu et dolor consectetur sit sint eu.",
+                    "item2": "Consequat voluptate veniam sunt esse nisi irure voluptate veniam reprehenderit Lorem nisi ex."
+                }
+            },
+            "unit1": {
+                "title": "Enim exercitation irure tempor qui ex ea occaecat laborum ut duis consequat est.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Cillum exercitation eu est magna pariatur culpa consequat Lorem.",
+                    "item2": "Exercitation sunt amet in sint pariatur nostrud consequat cupidatat pariatur in adipisicing voluptate ullamco consectetur.",
+                    "item3": "Cupidatat occaecat dolore officia adipisicing aute dolor do reprehenderit eiusmod proident."
+                }
+            },
+            "unit2": {
+                "title": "Consectetur esse culpa proident qui aliquip minim reprehenderit esse sit enim et commodo.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Exercitation anim nisi ad officia labore.",
+                    "item2": "Quis quis aliqua non consequat sint quis commodo.",
+                    "item3": "Enim deserunt enim incididunt aliquip mollit proident elit reprehenderit sint.",
+                    "item4": "Est excepteur occaecat ullamco dolore laboris ut dolor mollit est non.",
+                    "item5": "Veniam reprehenderit magna adipisicing aliqua."
+                }
+            },
+            "unit3": {
+                "title": "Labore sint ullamco amet dolor cupidatat tempor.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Minim voluptate sit consequat ea labore aute tempor voluptate esse nisi.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Voluptate sint eiusmod cupidatat officia laborum duis pariatur sint cillum.",
+        "description": "Aute aute incididunt ullamco irure enim enim.",
+        "delegationLevel": "1",
+        "tags": [
+            "dogs",
+            "chrome",
+            "css",
+            "fortuna",
+            "cinema",
+            "heavy",
+            "osx"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "maestri",
+            "università",
+            "workers",
+            "city",
+            "lover",
+            "amanti",
+            "antipatici"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Deserunt pariatur qui do ipsum irure commodo et amet veniam quis ea non sit.?",
+                "type": "single",
+                "items": {
+                    "item1": "Deserunt nostrud id in aliquip nulla ea voluptate ullamco officia deserunt adipisicing.",
+                    "item2": "Officia duis elit esse consequat sit sunt deserunt enim id."
+                }
+            },
+            "unit1": {
+                "title": "Do voluptate tempor ipsum officia culpa sit eu aute quis sint ut.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Duis quis duis veniam voluptate labore excepteur consectetur mollit ullamco ipsum nostrud incididunt.",
+                    "item2": "Mollit ad sit esse et quis ullamco ea ea.",
+                    "item3": "Nisi ad officia ea do non nisi qui fugiat occaecat deserunt duis deserunt."
+                }
+            },
+            "unit2": {
+                "title": "Quis amet culpa deserunt proident amet id laboris nulla eu culpa.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Enim elit sit ea excepteur do ea magna consectetur ex eiusmod sunt.",
+                    "item2": "Aliqua in laborum exercitation et occaecat cillum ex sint pariatur aute aliqua commodo.",
+                    "item3": "Dolor sit labore voluptate exercitation est voluptate elit do amet.",
+                    "item4": "Ad ad voluptate et cupidatat labore culpa ullamco cupidatat eu voluptate officia.",
+                    "item5": "Excepteur sint magna commodo minim eiusmod proident ad."
+                }
+            },
+            "unit3": {
+                "title": "Occaecat velit anim quis est in ad aliquip.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Magna ex amet non duis officia ad non nisi sint.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Eiusmod pariatur ea tempor velit laborum non irure minim officia velit labore irure est.",
+        "description": "Reprehenderit quis excepteur ex ipsum qui esse excepteur qui ex ullamco et.",
+        "delegationLevel": "1",
+        "tags": [
+            "university",
+            "university",
+            "chrome",
+            "python",
+            "msn",
+            "giocattoli",
+            "c++"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "girls",
+            "music",
+            "parents",
+            "da scartare",
+            "lover",
+            "cari",
+            "home"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Sit quis consectetur est sit ipsum.?",
+                "type": "single",
+                "items": {
+                    "item1": "Nostrud irure voluptate proident aliquip elit aute laborum.",
+                    "item2": "Qui sunt consequat deserunt quis nulla incididunt deserunt pariatur pariatur ex eu qui consectetur."
+                }
+            },
+            "unit1": {
+                "title": "Eiusmod id mollit cupidatat dolor amet qui pariatur aliqua magna officia.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Commodo voluptate adipisicing dolore sit do duis mollit.",
+                    "item2": "Pariatur non adipisicing ex ullamco esse amet ut consectetur.",
+                    "item3": "Qui culpa veniam irure sunt fugiat adipisicing consectetur sint."
+                }
+            },
+            "unit2": {
+                "title": "Reprehenderit ex voluptate irure officia aute laborum Lorem cillum sunt cupidatat.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Laboris laborum voluptate culpa do ad aliqua dolore est aute ullamco.",
+                    "item2": "Dolor elit proident aliqua Lorem sit.",
+                    "item3": "Mollit proident quis dolore aliqua sunt ea incididunt dolor aute irure minim.",
+                    "item4": "Qui dolor nulla ex nisi eu ex sint Lorem anim aute anim velit.",
+                    "item5": "Culpa enim non commodo quis tempor incididunt ad exercitation tempor ea exercitation est."
+                }
+            },
+            "unit3": {
+                "title": "Est eiusmod nulla sunt officia aliquip mollit eu aute do aute voluptate voluptate.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Commodo proident nostrud pariatur aliqua aute aute dolore.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Amet consectetur sint esse veniam occaecat eiusmod non ipsum mollit aliquip cillum ea cupidatat do.",
+        "description": "In anim commodo incididunt consectetur anim veniam elit minim laboris esse voluptate nisi laborum.",
+        "delegationLevel": "1",
+        "tags": [
+            "chrome",
+            "json",
+            "videogiochi",
+            "osx",
+            "msn",
+            "c",
+            "cats"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "professori",
+            "girls",
+            "professori",
+            "pallone",
+            "università",
+            "friends",
+            "fidanzate"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Sunt Lorem cillum ipsum ex anim.?",
+                "type": "single",
+                "items": {
+                    "item1": "Aliqua occaecat dolore laborum esse pariatur quis.",
+                    "item2": "Ad aute Lorem adipisicing sit in fugiat et ipsum."
+                }
+            },
+            "unit1": {
+                "title": "Dolore laboris qui laborum culpa id esse ea occaecat eu ex Lorem.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Sint dolore ullamco exercitation ea ex nulla ad commodo.",
+                    "item2": "Qui in mollit deserunt et consequat cillum et Lorem nostrud consectetur nulla.",
+                    "item3": "Esse ipsum qui esse cillum enim consectetur proident excepteur ullamco sit proident excepteur sunt."
+                }
+            },
+            "unit2": {
+                "title": "Tempor esse amet magna dolor sint amet laboris nulla sunt.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Sit cillum ut tempor cillum id id in.",
+                    "item2": "In Lorem consectetur occaecat velit excepteur laborum quis tempor mollit nostrud aliqua.",
+                    "item3": "Ex proident ea esse exercitation est cupidatat deserunt amet pariatur proident reprehenderit magna.",
+                    "item4": "Excepteur amet dolor irure culpa laborum ullamco mollit commodo qui veniam adipisicing eiusmod voluptate anim.",
+                    "item5": "Consectetur ea sint ad voluptate fugiat occaecat tempor ad."
+                }
+            },
+            "unit3": {
+                "title": "Nisi minim adipisicing anim dolore ea sit sint proident.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Amet occaecat quis pariatur mollit adipisicing aute ullamco laboris est.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Fugiat ad sit in ex esse aute duis.",
+        "description": "Veniam cupidatat ullamco velit mollit culpa laborum non.",
+        "delegationLevel": "1",
+        "tags": [
+            "house",
+            "c++",
+            "house",
+            "firefox",
+            "giocattoli",
+            "videogiochi",
+            "firefox"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "lover",
+            "college",
+            "music",
+            "professori",
+            "family",
+            "antipatici",
+            "university"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Ad excepteur nulla anim nulla consectetur.?",
+                "type": "single",
+                "items": {
+                    "item1": "Nostrud reprehenderit ea amet amet est nostrud nulla.",
+                    "item2": "Elit ipsum dolor ex exercitation Lorem adipisicing sint nulla tempor."
+                }
+            },
+            "unit1": {
+                "title": "Mollit adipisicing aliqua qui minim ipsum.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Ut proident pariatur Lorem amet labore laboris velit aliquip consectetur ad tempor.",
+                    "item2": "Sint occaecat occaecat occaecat consectetur esse aute sit magna ex laboris.",
+                    "item3": "Quis ex irure eu excepteur aute nisi aliqua mollit laborum."
+                }
+            },
+            "unit2": {
+                "title": "Commodo aliquip sint nulla enim adipisicing ipsum commodo officia occaecat.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Commodo anim magna irure ad non ea anim non.",
+                    "item2": "Eiusmod mollit magna dolor pariatur cupidatat laboris cupidatat voluptate incididunt nulla ad labore enim laboris.",
+                    "item3": "Adipisicing labore minim excepteur deserunt Lorem laboris ea irure ut.",
+                    "item4": "Elit tempor nostrud amet laboris aute ullamco nisi proident id voluptate sint laborum occaecat.",
+                    "item5": "Tempor reprehenderit eu occaecat cillum do incididunt dolore tempor incididunt."
+                }
+            },
+            "unit3": {
+                "title": "Ullamco sunt labore exercitation sit incididunt.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Qui laboris voluptate excepteur occaecat culpa minim consectetur.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Dolore commodo ad aliquip magna ipsum exercitation Lorem ipsum nostrud ut aute dolore proident laborum.",
+        "description": "Adipisicing esse et dolor Lorem duis eiusmod magna cillum.",
+        "delegationLevel": "1",
+        "tags": [
+            "giocattoli",
+            "css",
+            "chocolate",
+            "c++",
+            "mac",
+            "auto",
+            "msn"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "antipatici",
+            "lover",
+            "amanti",
+            "pallone",
+            "music",
+            "da scartare",
+            "college"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Nostrud incididunt eiusmod aliquip Lorem eu dolore laboris aliqua.?",
+                "type": "single",
+                "items": {
+                    "item1": "Enim Lorem veniam proident eu ad fugiat ullamco culpa.",
+                    "item2": "Ea qui non adipisicing aliqua amet adipisicing aute in Lorem eu aliqua ex."
+                }
+            },
+            "unit1": {
+                "title": "Minim adipisicing tempor nostrud esse cillum elit consequat enim.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Occaecat Lorem ea eiusmod eu qui Lorem pariatur ut velit.",
+                    "item2": "Eu ullamco in dolor commodo est duis do enim.",
+                    "item3": "Qui enim ea nulla culpa fugiat incididunt anim non labore."
+                }
+            },
+            "unit2": {
+                "title": "Magna nostrud dolore nulla enim et.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Velit laboris reprehenderit est laboris incididunt cupidatat.",
+                    "item2": "Sint ad culpa irure Lorem ut voluptate nulla amet.",
+                    "item3": "Irure laborum elit cillum velit anim magna quis qui exercitation duis labore velit ad duis.",
+                    "item4": "Et fugiat proident ipsum deserunt adipisicing Lorem do officia sint eiusmod excepteur.",
+                    "item5": "Esse proident minim velit deserunt occaecat et dolor quis labore."
+                }
+            },
+            "unit3": {
+                "title": "Elit veniam duis ut sit.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Laborum sit aute cupidatat adipisicing sunt velit.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Duis eu fugiat quis magna reprehenderit amet fugiat anim sint esse in.",
+        "description": "Ipsum ut nisi amet in id commodo ipsum cupidatat duis sit ea pariatur nisi.",
+        "delegationLevel": "1",
+        "tags": [
+            "msn",
+            "university",
+            "donne",
+            "css",
+            "restaurant",
+            "json",
+            "heavy"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "music",
+            "simpatici",
+            "child",
+            "cinema",
+            "simpatici",
+            "simpatici",
+            "maestri"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Cillum laboris fugiat quis incididunt consectetur esse amet quis amet.?",
+                "type": "single",
+                "items": {
+                    "item1": "Nulla ex esse ad duis.",
+                    "item2": "Exercitation occaecat do voluptate excepteur non officia occaecat labore fugiat irure duis."
+                }
+            },
+            "unit1": {
+                "title": "Sit ullamco in non quis eiusmod aliqua aute cillum incididunt ex et.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Proident veniam esse aliquip excepteur esse.",
+                    "item2": "Reprehenderit eiusmod ipsum ut ipsum ea Lorem nostrud deserunt ea excepteur ullamco.",
+                    "item3": "Exercitation minim exercitation anim reprehenderit commodo adipisicing laborum ea ad qui incididunt elit nostrud anim."
+                }
+            },
+            "unit2": {
+                "title": "Anim sint aliquip deserunt amet nulla fugiat ex adipisicing laboris ea id ad.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Nulla excepteur aute officia ad aute qui deserunt cillum est labore eu non duis ad.",
+                    "item2": "Nostrud velit adipisicing cillum occaecat.",
+                    "item3": "Sit eiusmod sit amet nulla labore eu ipsum ullamco minim exercitation.",
+                    "item4": "Dolor cillum reprehenderit pariatur in magna incididunt.",
+                    "item5": "Exercitation qui sunt nisi enim laborum ad culpa culpa adipisicing."
+                }
+            },
+            "unit3": {
+                "title": "Laborum occaecat ipsum reprehenderit labore irure voluptate.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Nostrud cupidatat incididunt adipisicing incididunt magna.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Adipisicing ad enim anim eiusmod consectetur eu officia exercitation.",
+        "description": "Qui ipsum commodo consequat consectetur reprehenderit Lorem.",
+        "delegationLevel": "1",
+        "tags": [
+            "mac",
+            "chrome",
+            "disco",
+            "fishing",
+            "chrome",
+            "c++",
+            "giocattoli"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "cinema",
+            "antipatici",
+            "family",
+            "college",
+            "amanti",
+            "pallone",
+            "girls"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Sint ipsum non aute mollit magna pariatur excepteur enim est.?",
+                "type": "single",
+                "items": {
+                    "item1": "Ullamco qui qui esse Lorem officia esse in laboris labore tempor.",
+                    "item2": "Minim consectetur velit id aliqua aliquip officia sit non veniam consectetur fugiat mollit."
+                }
+            },
+            "unit1": {
+                "title": "Ex ea esse nulla laborum nisi anim sunt culpa duis enim cupidatat qui.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Voluptate consequat cillum laborum dolor labore et duis veniam veniam est non.",
+                    "item2": "Ullamco dolore qui esse ad aute deserunt Lorem veniam pariatur mollit magna tempor consectetur pariatur.",
+                    "item3": "Cupidatat occaecat consectetur ipsum adipisicing Lorem exercitation dolor tempor."
+                }
+            },
+            "unit2": {
+                "title": "Et minim est voluptate magna ipsum incididunt cupidatat exercitation eu magna eiusmod consequat aliqua.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Nulla amet irure culpa laborum eu ut est anim veniam Lorem.",
+                    "item2": "Ut cillum dolore et ut excepteur sit ipsum reprehenderit.",
+                    "item3": "Sit Lorem adipisicing sit culpa nostrud non et duis pariatur consequat.",
+                    "item4": "Velit esse ea consequat do commodo fugiat aliqua mollit pariatur cillum id anim sunt ut.",
+                    "item5": "Laborum nostrud officia id esse irure labore irure ad reprehenderit nulla et qui qui."
+                }
+            },
+            "unit3": {
+                "title": "Consectetur consectetur ad est ut voluptate elit ad.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Ex do laborum reprehenderit qui sint ut.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Excepteur officia aliquip id ullamco enim irure eu et enim amet ut minim.",
+        "description": "Commodo qui consectetur aute nulla.",
+        "delegationLevel": "1",
+        "tags": [
+            "fortuna",
+            "chrome",
+            "dogs",
+            "ferrari",
+            "c++",
+            "fortuna",
+            "heavy"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "professori",
+            "city",
+            "università",
+            "college",
+            "newyork",
+            "antipatici",
+            "parents"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Ex ea voluptate in ipsum voluptate pariatur adipisicing exercitation sunt id nulla anim sit pariatur.?",
+                "type": "single",
+                "items": {
+                    "item1": "Veniam consequat cillum ex mollit aliquip pariatur sit mollit et tempor reprehenderit dolor.",
+                    "item2": "Proident sunt laborum commodo non sit non aliqua consectetur ad aliquip eu nostrud."
+                }
+            },
+            "unit1": {
+                "title": "Eu velit dolore culpa anim aute magna aliquip velit sint sit aute.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Eu enim proident ex sint.",
+                    "item2": "Laboris dolore voluptate non magna deserunt do deserunt est.",
+                    "item3": "Sunt consectetur incididunt veniam occaecat est sint."
+                }
+            },
+            "unit2": {
+                "title": "Sunt in eiusmod ea do dolor.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Non Lorem irure laborum cillum ipsum.",
+                    "item2": "Sint voluptate sit consequat sunt aute dolore non exercitation pariatur duis laborum non.",
+                    "item3": "Esse quis excepteur enim veniam adipisicing consectetur irure.",
+                    "item4": "Minim ut id irure minim amet eu ut esse ullamco ullamco quis pariatur.",
+                    "item5": "Ex aute et ut ut elit qui labore incididunt."
+                }
+            },
+            "unit3": {
+                "title": "Culpa reprehenderit irure sint incididunt minim ea voluptate ullamco cupidatat eu ut cupidatat tempor ea.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Deserunt mollit id anim voluptate.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    },
+    {
+        "title": "Nostrud cupidatat duis aute laboris veniam quis sit laboris.",
+        "description": "Enim nulla voluptate eu quis voluptate quis sunt voluptate Lorem veniam est eiusmod laborum officia.",
+        "delegationLevel": "1",
+        "tags": [
+            "cinema",
+            "house",
+            "chocolate",
+            "videogiochi",
+            "cinema",
+            "osx",
+            "disco"
+        ],
+        "flags": {
+            "private": "1",
+            "moderated": "1",
+            "allowComments": "1",
+            "allowAnonymous": "1"
+        },
+        "creator": "0th",
+        "circles": [
+            "workers",
+            "friends",
+            "da scartare",
+            "pallone",
+            "workers",
+            "workers",
+            "college"
+        ],
+        "container": "16925",
+        "units": {
+            "unit0": {
+                "title": "Consectetur nulla esse velit anim.?",
+                "type": "single",
+                "items": {
+                    "item1": "Aliquip ut aliqua Lorem tempor laborum occaecat minim sunt do voluptate anim et.",
+                    "item2": "Anim fugiat enim reprehenderit sit aute velit cillum enim dolor fugiat officia excepteur pariatur amet."
+                }
+            },
+            "unit1": {
+                "title": "Culpa aliqua aute pariatur do.?",
+                "type": "multi",
+                "items": {
+                    "item1": "Cillum voluptate reprehenderit commodo culpa duis amet magna labore proident duis id.",
+                    "item2": "Sit exercitation ullamco fugiat culpa aliquip ad adipisicing incididunt occaecat nostrud velit commodo deserunt.",
+                    "item3": "Officia nulla aute consectetur duis mollit ullamco consequat fugiat aliquip est voluptate magna sunt eiusmod."
+                }
+            },
+            "unit2": {
+                "title": "In esse aliquip voluptate quis velit enim laboris laboris sit ut adipisicing commodo consequat.?",
+                "type": "shultze",
+	            "mean": "",
+	            "variance":"",
+                "items": {
+                    "item1": "Esse officia magna fugiat labore excepteur elit irure mollit.",
+                    "item2": "Sunt pariatur tempor consequat ad qui elit officia.",
+                    "item3": "Officia anim reprehenderit aute nulla enim sint voluptate eu excepteur.",
+                    "item4": "Officia adipisicing ipsum ut irure exercitation nostrud nostrud labore dolore ullamco excepteur pariatur ut aliqua.",
+                    "item5": "Proident dolor et id deserunt."
+                }
+            },
+            "unit3": {
+                "title": "Velit nisi ut officia dolor nostrud laboris ipsum non nulla.?",
+                "type": "likert",
+                "items": {
+                    "item1": "*",
+                    "item2": "**",
+                    "item3": "***",
+                    "item4": "****",
+                    "item5": "*****"
+                }
+            },
+            "unit4": {
+                "title": "Tempor mollit veniam officia nostrud incididunt sunt magna consequat officia ea irure mollit exercitation.?",
+                "type": "thumb",
+                "items": {
+                    "item1": "thumb"
+                }
+            }
+        },
+        "phpsessid": "410559f601b1a122de614010692f3461"
+    }
+]

@@ -1,0 +1,72 @@
+List of improvements and todo.
+
+- Separate code of zfcUser and Auth!!
+
+- edited some file in zfc-user folder
+- added display_surname 	field in DB and in form registration to make it compatible with N4J fields
+- also added account_type   //
+
+Target: 
+	create User account in N4J DB along with zfcUser registration 
+
+
+in file :
+	/rateit/vendor/zf-commons/zfc-user/src/ZfcUser/Controller/UserController.php
+ edit:
+ 	function registerAction():
+ 			[...]
+ 	 		/*
+    		 * ===========================================
+    		* MODULE APPLICATION EDIT (TODO: REMOVE)
+    		* Adds user to N4J DB calling addUserAction()
+    		* ===========================================
+    		*/
+    
+    		$json               =  Array();
+    		$json['name']       = $user->getDisplayName();
+    		$json['surname']    = $user->getDisplaySurname();
+    		$json['mail']       = $user->getEmail();
+    		$json['howMany']    = 1;
+    		$json['accountType']= $user->getAccountType();
+    		$json               = json_encode($json);
+    		$request->setContent($json);
+    
+    		$result = $this->forward()->dispatch('userController', array(
+    				'action' => 'addUser',
+    				'request'=> $request
+    		));
+    		//=============================================
+    
+    		return $this->redirect()->toRoute('application', array('action' => 'index'));
+    		
+in file:
+	/rateit/vendor/zf-commons/zfc-user/src/ZfcUser/Form/Base.php
+edit:		
+			[...] 
+			  $this->add(array(
+			        		'name' => 'display_surname',
+			        		'options' => array(
+			        				'label' => 'Surname',
+			        		),
+			        		'attributes' => array(
+			        				'type' => 'text'
+			        		),
+			        ));
+			[...]
+			 $this->add(array(
+		        		'type' => 'Zend\Form\Element\Select',
+		        		'name' => 'account_type',
+		        		'options' => array(
+		        				'label' => 'Account type',
+		        				'options' => array(
+		        						'normal'    => 'normal',
+		        						'developer' => 'developer',
+		        				)
+		        		),
+		        		'attributes' => array(
+		        				'type' => 'select',
+		        		)
+		        ));
+        
+        
+    

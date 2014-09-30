@@ -1,0 +1,92 @@
+
+
+<?php
+/*	ADD USER FORM */ 
+?>
+
+
+<div style="height:260px;">
+		<?php 
+			$addUsersForm = $this->addUsersForm;
+		
+			
+			$url = $this->url('users',array('action'=>'add-user'));
+			$addUsersForm->setAttribute('action', $url);
+			
+			// Set the method attribute for the form
+			//$addUsersForm->setAttribute('method', 'post');
+			
+			// Set the method attribute for the form
+			$addUsersForm->setAttribute('id', 'addUserForm');
+			
+			$addUsersForm->setAttribute('class', 'pure-form');
+			
+			// Get the form label plugin
+			$addUsersFormLabel = $this->plugin('formLabel');
+			$addUsersForm->prepare();
+			// Render the opening tag
+			echo $this->form()->openTag($addUsersForm);
+		?>
+		
+		<fieldset class="pure-group">
+				<?php
+					$name = $addUsersForm->get('name');
+				    echo $this->formInput($name);
+				    //echo $this->formElementErrors($name);
+				?>
+		
+		
+		
+				<?php
+				    $surname = $addUsersForm->get('surname');
+				    echo $this->formInput($surname);
+				    //echo $this->formElementErrors($surname);
+				?>
+		
+		
+		
+				<?php
+				    $mail = $addUsersForm->get('mail');
+				    echo $this->formInput($mail);
+				    //echo $this->formElementErrors($mail);
+				?>
+		</fieldset>
+		<div id="addUserDialogConfirmDiv"></div>
+		<div class="pure-control-group" style="line-height: 25px;">
+		<?php 
+			try{
+				$howMany=$addUsersForm->get('howMany');
+			}catch(Exception $e){
+				unset($howMany);
+			}
+			if($howMany){ 
+			    echo $addUsersFormLabel->openTag();
+			    
+			    echo $howMany->getLabel();
+			    echo "&nbsp &nbsp &nbsp";
+			    echo $addUsersFormLabel->closeTag();
+			    echo $this->formInput($howMany);
+			    //echo $this->formElementErrors($howMany);
+			    
+		    }
+		    echo "<br><br>";
+		    
+			$accountType = $addUsersForm->get('accountType');
+			echo $addUsersFormLabel->openTag();
+			echo $accountType->getLabel();
+			echo $addUsersFormLabel->closeTag();
+			echo "&nbsp &nbsp &nbsp &nbsp &nbsp";
+			echo $this->formSelect($accountType);
+			//echo $this->formElementErrors($accountType);
+		?>
+		</div>
+		
+		<div class="pure-control-group" style="float:right; margin:12px;">
+			<?php echo $this->formbutton($addUsersForm->get('send')); ?>
+			
+		</div>
+
+		<?php echo $this->form()->closeTag() ?>
+</div>	
+<br>
+<br>

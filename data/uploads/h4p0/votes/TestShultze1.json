@@ -1,0 +1,34 @@
+[
+    {
+        "proposal_id": 2505,
+        "solutions_count": 6,
+        "votes_count": 41,
+        "solutions": "a,b,c,d,e,f",
+        "preferences": [
+            {
+                "count": 5,
+                "data": "d;b;c;a;e;f"
+            },
+            {
+                "count": 15,
+                "data": "a;b;c;d;e;f"
+            },
+            {
+                "count": 3,
+                "data": "b;e;f;d;a;c"
+            },
+            {
+                "count": 7,
+                "data": "f;c;b;d,e;a"
+            },
+            {
+                "count": 4,
+                "data": "a;c;b;e;f;d"
+            },
+            {
+                "count": 7,
+                "data": "a;c;b;f;e;d"
+            }
+        ]
+    }
+]

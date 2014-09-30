@@ -1,0 +1,160 @@
+<!--
+/*
+ * Application name: OpenRate-it!
+ * A general-purpose polling platform
+ * Copyright (C) 2014  Alain Bindele (alain.bindele@gmail.com)
+ * This file is part of OpenRate-it!
+ * OpenRate-it! is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ * OpenRate-it! is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ */
+-->
+
+<?php echo $this->doctype(); ?>
+
+<html lang="en" style="overflow-x:hidden;max-width: 100%;">
+    <head>
+        <meta charset="utf-8">
+        <?php echo $this->headTitle($this->translate('OpenRate-it! Application'))->setSeparator(' - ')->setAutoEscape(false) ?>
+
+        <?php echo $this->headMeta()
+            ->appendName('viewport', 'width=device-width, initial-scale=1.0')
+            ->appendHttpEquiv('X-UA-Compatible', 'IE=edge')
+        ?>
+
+        <!-- Le styles -->
+        <?php echo $this->headLink(array('rel' => 'shortcut icon', 'type' => 'image/vnd.microsoft.icon', 'href' => $this->basePath() . '/img/favicon.ico'))
+                        ->prependStylesheet($this->basePath() . '/css/style.css')
+                        ->prependStylesheet($this->basePath() . '/js/jpreloader/css/style.css')
+                        ->prependStylesheet($this->basePath() . '/js/jpreloader/css/vendor.css')
+                        ->prependStylesheet($this->basePath() . '/js/jpreloader/css/jpreloader.css')
+                        ->prependStylesheet($this->basePath() . '/css/bootstrap-theme.min.css')
+                        ->prependStylesheet($this->basePath() . '/css/bootstrap.min.css') 
+                        ->prependStylesheet($this->basePath() . '/css/pure/forms/css/forms.css')
+                        ->prependStylesheet($this->basePath() . '/css/pure/forms/css/forms-core.css')
+                        ->prependStylesheet($this->basePath() . '/css/pure/forms/css/forms-r.css')
+                        ->prependStylesheet($this->basePath() . '/css/pure/buttons/css/buttons.css')
+                        ->prependStylesheet($this->basePath() . '/css/pure/buttons/css/buttons-core.css')
+                        ->prependStylesheet($this->basePath() . '/css/user-menu/jquery-ui-1.10.3.custom.css')
+        ?>
+
+        <!-- Scripts -->
+        <?php echo $this->headScript()
+            ->prependFile($this->basePath() . 'js/jssor/js/jssor.slider.js')  
+            ->prependFile($this->basePath() . '/js/jpreloader/js/jpreloader.js')
+            ->prependFile($this->basePath() . 'js/jssor/js/jssor.core.js')
+            ->prependFile($this->basePath() . 'js/jssor/js/jssor.utils.js')            
+            ->prependFile($this->basePath() . '/js/bootstrap.min.js')
+            ->prependFile($this->basePath() . '/js/jquery/jquery.json.js')
+            ->prependFile($this->basePath() . '/js/jquery/jquery.cookie.js')
+	        ->prependFile($this->basePath() . '/js/jquery/jquery-1.9.1.js')
+            ->prependFile($this->basePath() . '/js/respond.min.js', 'text/javascript', array('conditional' => 'lt IE 9',))
+            ->prependFile($this->basePath() . '/js/html5shiv.js',   'text/javascript', array('conditional' => 'lt IE 9',))
+        ; ?>
+
+        
+       
+        
+        <!-- 
+            JSSOR SLIDER
+         -->
+        <!-- it works the same with all jquery version from 1.3.1 to 2.0.3 -->
+
+    <script>
+        jQuery(document).ready(function ($) {
+            var options = {
+                $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                $AutoPlaySteps: 1,                                  //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
+                $AutoPlayInterval: 5000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                $PauseOnHover: 3,                                   //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, default value is 3
+
+                $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
+                $SlideDuration: 500,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+                $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
+                $SlideWidth: 600,                                   //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+                $SlideHeight: 300,                                  //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+                $SlideSpacing: 20, 					                //[Optional] Space between each slide in pixels, default value is 0
+                $DisplayPieces: 1,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+                $ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
+                $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
+                $PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, default value is 1
+                $DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+
+                $BulletNavigatorOptions: {                          //[Optional] Options to specify and enable navigator or not
+                    $Class: $JssorBulletNavigator$,                 //[Required] Class to create navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $ActionMode: 1,                                 //[Optional] 0 None, 1 act by click, 2 act by mouse hover, 3 both, default value is 1
+                    $AutoCenter: 2,                                 //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Lanes: 1,                                      //[Optional] Specify lanes to arrange items, default value is 1
+                    $SpacingX: 20,                                  //[Optional] Horizontal space between each item in pixel, default value is 0
+                    $SpacingY: 20,                                  //[Optional] Vertical space between each item in pixel, default value is 0
+                    $Orientation: 1                                 //[Optional] The orientation of the navigator, 1 horizontal, 2 vertical, default value is 1
+                },
+
+                $ArrowNavigatorOptions: {
+                    $Class: $JssorArrowNavigator$,                  //[Requried] Class to create arrow navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 0                                  //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                },
+
+                $ThumbnailNavigatorOptions: {
+                    $Class: $JssorThumbnailNavigator$,              //[Required] Class to create thumbnail navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $ActionMode: 0,                                 //[Optional] 0 None, 1 act by click, 2 act by mouse hover, 3 both, default value is 1
+                    $DisableDrag: true,                             //[Optional] Disable drag or not, default value is false
+                    $Orientation: 2                                 //[Optional] Orientation to arrange thumbnails, 1 horizental, 2 vertical, default value is 1
+                }
+            };
+
+            var jssor_slider2 = new $JssorSlider$("slider2_container", options);
+            //responsive code begin
+            
+            if (!navigator.userAgent.match(/(iPhone|iPod|iPad|BlackBerry|IEMobile)/)) {
+                $(window).bind('resize', ScaleSlider);
+            }
+            //responsive code end
+        });
+    </script>
+    
+        
+    </head>
+    <body style="overflow-x:hidden;max-width: 100%;">
+   
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="<?php echo $this->url('home') ?>"><?php echo $this->translate('OpenRate-it! (Testing)') ?></a>
+                </div>
+                
+                <div class="collapse navbar-collapse">
+                   <ul class="nav navbar-nav">
+                        <li class="active"><a href="/admin"><?php echo $this->translate('Administration Panel') ?></a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </nav>
+        <div>
+
+
+
+        </div>
+        <div class="container">
+            <?php echo $this->content; ?>
+            <hr>
+        </div> <!-- /container -->
+        <?php echo $this->inlineScript() ?>
+    </body>
+</html>

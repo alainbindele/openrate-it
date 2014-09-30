@@ -1,0 +1,65 @@
+
+
+<div class="pure-form" style="height:358px; overflow:scroll;">
+		<!-- ****************************************  VOTE UNIT **************************************** -->
+		<?php 
+			$commentForm = $this->addCommentsForm;
+			$commentForm -> prepare();
+			// Assuming the "///TODO: add route here///" route exists...
+			$commentForm -> setAttribute('action', $this->url('surveys'));
+			// Set the method attribute for the form
+			$commentForm -> setAttribute('method', 'post');
+			// Set the id attribute for the form
+			$commentForm -> setAttribute('id', 'commentsForm');
+			// Get the form label plugin
+			$commentsFormLabel = $this->plugin('formLabel');
+			// Get the user text field
+			$userSelect   = $commentForm->get('commentUserId');
+			$surveySelect = $commentForm->get('commentSurveyId');
+			//$userSelect  -> setAttribute('onchange',"getVisibleSurveys('/surveys/get-visible-surveys',surveySelectId)");
+			$commentArea = $commentForm->get('commentText');
+		?>
+		<div style="height:400px;">
+		<form id="addCommentForm">
+		  <div style="float:left;">
+			<?php
+				// Rendering form elements
+			
+			    // creator
+				
+                echo $commentsFormLabel    -> openTag();
+                echo $userSelect           -> getLabel();
+                echo $commentsFormLabel    -> closeTag();
+
+                echo $this  ->  formSelect($userSelect);
+                echo $this  ->  formElementErrors($userSelect);
+                
+                // Survey
+                
+                echo $commentsFormLabel    -> openTag();
+                echo $surveySelect         -> getLabel();
+                echo $commentsFormLabel    -> closeTag();
+                
+                echo $this  ->  formSelect($surveySelect);
+                echo $this  ->  formElementErrors($surveySelect);
+                
+                // TextArea
+                echo $commentsFormLabel    -> openTag();
+                echo $commentArea          -> getLabel();
+                echo $commentsFormLabel    -> closeTag();
+                echo "<br>";
+                echo $this  ->  formtextarea($commentArea);
+                echo $this  ->  formElementErrors($commentArea);
+                 
+                ?>
+            </div> 
+
+            <?php
+            echo $this->formElement($commentForm->get('send'));
+            ?>
+			</form>
+            <div id="addCommentDialogConfirmDiv"></div>
+	</div>
+</div>
+
+

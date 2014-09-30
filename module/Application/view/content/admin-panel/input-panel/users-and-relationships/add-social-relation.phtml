@@ -1,0 +1,82 @@
+
+
+<?php
+/*	ADD SOCIAL RELATIONSHIP FORM */ 
+?>
+
+<div class="pure-form" style="height:300px; position:relative;">
+	<?php 
+		$addSocialRelationForm = $this->addSocialRelationForm;
+		//var_dump($addUserForm);
+		$addSocialRelationForm -> prepare();
+		// Assuming the "contact/process" route exists...
+		//$addSocialRelationForm -> setAttribute('action', $this->url('admin'));
+		// Set the method attribute for the form
+		//$addSocialRelationForm -> setAttribute('method', 'post');
+		// Set the id attribute for the form
+		$addSocialRelationForm -> setAttribute('id', 'addSocialRelationForm');
+		// Get the form label plugin
+		$addSocialRelationFormLabel = $this->plugin('formLabel');
+		// Get the user text field
+		$startUserSelect= $addSocialRelationForm->get('circlesCreatorUid');
+		$startUserSelect    -> setAttribute ('onchange',"getContactListRequest('/users/get-user-contacts','contactList1','socialRelationshipUid');getCirclesRequest('/users/get-circles','socialCircles','socialRelationshipUid');return true;")
+							-> setAttribute("id", "socialRelationshipUid");
+		$targetUserSelect 	= $addSocialRelationForm->get('targetUser');
+	?>
+	<div>
+	<?php
+		// Rendering form elements
+		echo $this->form()->openTag($addSocialRelationForm);
+		/*
+		 * START USER SELECT
+		 */
+		
+		//label
+		echo $addSocialRelationFormLabel->openTag();
+		echo $startUserSelect->getLabel();
+		echo $addSocialRelationFormLabel->closeTag();
+		echo "&nbsp &nbsp ";
+		echo $this->formSelect($startUserSelect);
+		//echo $this->formElementErrors($startUserSelect);
+
+		/*
+		 * END USER SELECT
+		 */
+		echo "<div class='circles'></div>";
+		echo $addSocialRelationFormLabel->openTag();
+		echo $targetUserSelect->getLabel();
+		echo $addSocialRelationFormLabel->closeTag();
+		echo "&nbsp &nbsp";
+		echo $this->formSelect($targetUserSelect);
+		//echo $this->formElementErrors($startUserSelect);
+		
+		echo "<div id='circlesCheckbuttonsText'></div>";
+		echo "<div id='warning'></div>";
+	?>
+	
+		<div id="socialCirclesDiv" style="width:100%;overflow: scroll;">
+		<div style="width:50%;float:left;">
+			<?php
+				// DESTINATION DIV for DYNAMIC FORM!
+				// socialCircles=tagId in getCircles.js!
+				echo "<div id='socialCircles'></div>";
+
+			?>
+		</div>
+			<div id='contactList1' style='overflow:scroll; float:right;height:150px;margin: 0 auto;'>
+			</div>
+		</div>
+	</div>
+	
+	<div id="addSocialRelationDialogConfirmDiv"></div>
+	
+	<div style="float:right; margin:15px;">
+		<div class="pure-control-group">
+			<?php echo $this->formElement($addSocialRelationForm->get('send')); ?>
+			<?php echo $this->form()->closeTag() ?>
+			
+		</div>
+	</div>
+</div>
+
+

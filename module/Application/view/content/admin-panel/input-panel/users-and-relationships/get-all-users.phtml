@@ -1,0 +1,31 @@
+
+
+<strong>Module:</strong>        Application &raquo;
+<strong>Controller:</strong>    AdminController &raquo;
+<strong>Action:</strong>        userList
+
+<?php if($this->response==true){ ?>
+
+<table border=1 >
+
+<?php foreach ($this->list as $user) : ?>
+
+<tr>
+    <td><?php echo $user->getId();?></td>
+    <td><?php echo $user->getName();?></td>
+    <td><?php echo $user->getSurname();?></td>
+    <td><?php echo $user->getAccountType();?></td>
+    <td><?php echo $user->getMail();?></td>
+</tr>
+<?php endforeach; ?> 
+
+<?php 
+}else{
+	echo "<br>Userlist retrive error!";
+}
+
+?>
+</table>
+
+
+

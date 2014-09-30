@@ -1,0 +1,85 @@
+
+<div  style="position: relative;">
+	<ul class="nav nav-pills">
+		<li class="active">
+		  <a href="#div1"  data-toggle="tab"
+			style="box-shadow: 0px 0px 0px 0 #DCDCDC; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; line-height: 1em;">
+			Users & Relations
+		  </a>
+	    </li>
+		<li >
+		  <a href="#div2"  data-toggle="tab"
+		     style="box-shadow: 0px 0px 0px 0 #DCDCDC; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; line-height: 1em;">
+		  Surveys & Containers
+		  </a>
+		</li>
+		<li>
+		  <a href="#div3"  data-toggle="tab"
+			 style="box-shadow: 0px 0px 0px 0 #DCDCDC; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; line-height: 1em;">
+		  Rates	& Comments 
+		  </a>
+		</li>
+		<li>
+		  <a href="#div6" data-toggle="tab"
+			 style="box-shadow: 0px 0px 0px 0 #DCDCDC; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; line-height: 1em;">
+			 Help
+	      </a>
+	    </li>
+	</ul>
+    <div class="tab-content">
+    	<div class="tab-pane fade in active" id="div1">
+    		<div style="width: 100%; height: 550px">
+                <?php
+                echo "$this->usersAndRelationsView";
+                ?>
+            </div>
+    	</div>
+    	<div class="tab-pane fade" id="div2">
+    		<div style="width: 100%; height: 550px">
+                <?php
+                echo "$this->surveysAndContainersView";
+                ?>
+                </div>
+    	</div>
+    	<div class="tab-pane fade" id="div3">
+    		<div style="width: 100%; height: 550px">
+                <?php
+                echo "$this->ratesView";
+                ?>
+            </div>
+    	</div>
+    	<div class="tab-pane fade" id="div7" style="height: 100%; overflow: scroll;">
+    		<div
+    			style="width: 100%; height: 530px; float: right; overflow: scroll; overflow: -moz-scrollbars-vertical; padding: 0px; line-height: 17px;">
+    			<iframe src="" width=100% height=100% frameborder="0"></iframe>
+    		</div>
+    	</div>
+    	<!-- Container of the third tab (HELP) -->
+    	<div class="tab-pane fade" id="div6" style="height: 100%; overflow: scroll;">
+    		<div
+    			style="width: 100%; height: 530px; float: right; overflow: scroll; overflow: -moz-scrollbars-vertical; padding: 0px; line-height: 17px;">
+    			<h2>Help</h2>
+    			<h3>Users & Relations</h3>
+    			This panel is dedicated to the users, you can add/remove users and
+    			relations between them (friendships and circles ).
+    			<hr>
+    			<h3>Surveys & Containers</h3>
+    			This panel is dedicated to the surveys and containers data entry.
+    
+    			<hr>
+    			<h3>Rates & Comments</h3>
+    			With this panel you can add votes to surveys. In order to do that you
+    			should select a <i>voter</i> user and a survey creator. When you
+    			select the survey creator, the list of his surveys is displayed and
+    			you can then select one. The survey appears in the right part of the
+    			panel and you can fill it. Once that you could send the vote to the
+    			server and store it.
+    			<hr>
+    		</div>
+    	</div>
+    </div>
+</div>
+
+
+
+

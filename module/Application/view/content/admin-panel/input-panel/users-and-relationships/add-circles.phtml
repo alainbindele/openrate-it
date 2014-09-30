@@ -1,0 +1,55 @@
+
+<?php
+/*	ADD CIRCLES FORM */ 
+?>
+
+<div class="pure-form" style="height:300px; overflow:scroll;">
+	<?php 
+		$addCirclesForm = $this->addCirclesForm;
+		//var_dump($addUserForm);
+		$addCirclesForm->prepare();
+		// Assuming the "contact/process" route exists...
+		//$url = $this->url('users',array('action'=>'add-circle'));
+		//$addCirclesForm->setAttribute('action', $url);
+		// Set the method attribute for the form
+		//$addCirclesForm->setAttribute('method', 'post');
+		// Set the id attribute for the form
+		$addCirclesForm->setAttribute('id', 'addCirclesForm');
+		// Get the form label plugin
+		$addUsersFormLabel = $this->plugin('formLabel');
+		// Get the user text field
+		$user = $addCirclesForm->get('user');
+	?>
+	
+	<?php
+		// Rendering form elements
+		echo $this->form()->openTag($addCirclesForm);
+		echo $addUsersFormLabel->openTag();
+		echo $user->getLabel();
+		echo $addUsersFormLabel->closeTag();
+		echo "&nbsp &nbsp";
+		echo $this->formSelect($user);
+		echo $this->formElementErrors($user);
+		echo "&nbsp &nbsp &nbsp &nbsp\n<div style='float:right; bottom:-30px; margin-right:15px';>";
+		$addCirclesImageButton = $addCirclesForm->get('addCirclesImageButton');
+    ?>
+		<img name="addCirclesImageButton" onclick=addCirclesInput('circles'); src="img/ico/addCircle.png" width="30" height="30">
+		</div>
+        <br>
+        &nbsp &nbsp &nbsp
+    <div style="max-height: 200px; overflow: auto;">
+		<fieldset class='pure-group'>
+            <div id='addCircleText'></div>
+            <div id='warning'></div>
+		</fieldset>
+    </div>
+	
+	<div id="addCircleDialogConfirmDiv"></div>
+	<div style="float:right;margin-right:15px;">
+		
+			<?php echo $this->formElement($addCirclesForm->get('send')); ?>
+			<!--  <input type="submit" value="" class="checkbutton" />-->
+			<?php echo $this->form()->closeTag($addCirclesForm) ?>
+		
+	</div>
+</div>

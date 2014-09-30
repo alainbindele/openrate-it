@@ -1,0 +1,195 @@
+<?php
+/*	ADD UNIT FORM */
+?>
+
+<div style="overflow:scroll;">
+    <?php
+    $addSurveyForm = $this->addSurveyForm;
+    $addSurveyForm -> prepare();
+
+
+    // Set the method attribute for the form
+    $addSurveyForm->setAttribute('id', 'addSurveyForm');
+    $addSurveyForm->setAttribute('name', 'addSurveyForm');
+    $addSurveyForm->setAttribute('class', 'pure-form');
+
+    // Get the form label plugin
+    $addUnitsFormLabel = $this->plugin('formLabel');
+
+    // Render the opening tag
+    echo $this->form()->openTag($addSurveyForm);
+    ?>
+    <div class="pure-form" style="float: left; overflow:auto; text-align: left; width: 50%;">
+        <fieldset class="pure-group">
+            <?php
+            $title = $addSurveyForm->get('title');
+            echo $this->formInput($title);
+            echo $this->formElementErrors($title);
+            $description = $addSurveyForm->get('description');
+            echo $this->formInput($description);
+            echo $this->formElementErrors($description);
+            ?>
+        </fieldset>
+
+        <div style="line-height:20px; overflow:scroll; position:relative;">
+            <div style="text-align:center;">
+                <?php
+
+                /*
+                 * TAGS INPUT
+                 */
+                $tags = $addSurveyForm->get('tags');
+                echo $this->formInput($tags);
+                echo "&nbsp &nbsp &nbsp &nbsp ";
+                echo $this->formElementErrors($tags);
+
+
+                $private = $addSurveyForm->get('private');
+                $private -> setName('flags[private]');
+                $private -> setValue('true');
+                $private -> setUseHiddenElement(false);
+                echo '<img src="/img/ico/lock.png" title="PRIVATE" width="20" height="20">';
+                echo "&nbsp";
+                echo $this->formcheckbox($private);
+                $moderated = $addSurveyForm->get('moderated');
+                $moderated ->setName('flags[moderated]');
+                $moderated ->setUseHiddenElement(false);
+                echo "&nbsp &nbsp &nbsp &nbsp";
+                echo '<img src="/img/ico/moderated.png" title="MODERATED" width="20" height="20">';
+                echo "&nbsp";
+                $moderated->setUseHiddenElement(false);
+                echo $this->formcheckbox($moderated, 'prepend');
+
+                echo "&nbsp &nbsp &nbsp &nbsp";
+                $allowComments = $addSurveyForm->get('allowComments');
+                $allowComments ->setName('flags[allowComments]');
+                $allowComments ->setUseHiddenElement(false);
+                echo '<img src="/img/ico/comment.png" title="ALLOW COMMENTS" width="20" height="20">';
+                echo "&nbsp";
+                echo $this->formcheckbox($allowComments, 'prepend');
+
+
+                $allowAnonymous = $addSurveyForm->get('allowAnonymous');
+                $allowAnonymous ->setName('flags[allowAnonymous]');
+                $allowAnonymous ->setUseHiddenElement(false);
+                echo "&nbsp &nbsp &nbsp &nbsp";
+                echo '<img src="/img/ico/anonymous.png" title="ALLOW ANONYMOUS" width="20" height="20">';
+                echo "&nbsp";
+                echo $this->formcheckbox($allowAnonymous, 'prepend');
+                echo "<br>";
+
+                ?>
+            </div><br>
+
+
+            <?php
+
+            $creator    = $addSurveyForm->get('creator');
+            $creator    -> setAttribute ('onchange',"getCirclesRequest('/users/get-circles','socialCircles2','surveyCreatorLabelUid');
+                                                             getContainersIdListRequest('/surveys/get-containers-id-list','containerListUid','surveyCreatorLabelUid');
+                                                             return true;")
+                -> setAttribute("id", "surveyCreatorLabelUid");
+            $container   = $addSurveyForm->get('container');
+            $container   -> setAttribute("id", "containerListUid")
+                -> setAttribute("name", "container");
+
+
+
+            echo "<div>";
+            echo "<div style='line-height: 30px;height:250px;width 50%;float:left;'>";
+            echo $addUnitsFormLabel->openTag();
+            echo $creator->getLabel();
+            echo "&nbsp &nbsp ";
+            echo $addUnitsFormLabel->closeTag();
+            echo $this->formSelect($creator);
+            echo "&nbsp &nbsp ";
+            echo $this->formElementErrors($creator);
+
+
+            echo "&nbsp &nbsp <br>";
+            echo $addUnitsFormLabel->openTag();
+            echo $container->getLabel();
+            echo "&nbsp &nbsp ";
+            echo $addUnitsFormLabel->closeTag();
+            echo $this->formSelect($container);
+            echo "<br>";
+            echo $this->formElementErrors($container);
+            $delegationLevel = $addSurveyForm->get('delegationLevel');
+            echo $addUnitsFormLabel->openTag();
+            echo $delegationLevel->getLabel();
+            echo "&nbsp &nbsp";
+            echo $addUnitsFormLabel->closeTag();
+            echo $this->formSelect($delegationLevel);
+            echo $this->formElementErrors($delegationLevel);
+
+            echo "</div>";
+            // DESTINATION DIV for DYNAMIC FORM!
+            // socialCircles=tagId in getCircles.js!
+            echo "     <div style='overflow:scroll;'>";
+            echo "          <div id=socialCircles2></div>";
+            echo "     </div>";
+            echo "</div>";
+            ?>
+            <br>
+            <div id="addSurveyDialogConfirmDiv"></div>
+            <div>
+                <?php
+                // Day PICKER
+                //$element = $addContainersForm->get('Date');
+
+                //echo $this->formLabel($element);
+                ?>
+                <div>
+                    <?php
+                    //echo $this->formDateSelect($element);
+                    //echo $this->formElementErrors($element);
+                    ?>
+                </div>
+            </div>
+            <br>
+            <div style="position:absolute; bottom:30px;text-align: right;">
+                <?php echo $this->formElement($addSurveyForm->get('send')); ?>
+            </div>
+        </div>
+    </div>
+
+    <div class="pure-control-group" style="margin-top:5px; padding:10px; border-radius:5px; height:400px; overflow-y:scroll; border:1px solid #DCDCDC; float: right; text-align: right; width: 49%;box-shadow:inset 0 0 5px 0 #DCDCDC ; ">
+        <div style="margin: 10px; line-height: 18px; text-align:center; font-size:60%;">
+            <table border="0"  align="center" width="100%">
+                <tr>
+                    <?php
+                    echo "<td><img name='addItemsButton' onclick=retriveItemsRequest('addItemText','text')      src='img/ico/text.png' width='20' height='20'></td>";
+                    echo "<td><img name='addItemsButton' onclick=retriveItemsRequest('addItemText','unit')      src='img/ico/plus.png' width='20' height='20'></td>";
+                    echo "<td><img name='addItemsButton' onclick=retriveItemsRequest('addItemText','single')    src='img/ico/single.png' width='23' height='23'></td>";
+                    echo "<td><img name='addItemsButton' onclick=retriveItemsRequest('addItemText','multi')     src='img/ico/multi.png' width='20' height='20'></td>";
+                    echo "<td><img name='addItemsButton' onclick=retriveItemsRequest('addItemText','shultze')   src='img/ico/shultze.png' width='20' height='20'></td>";
+                    echo "<td><img name='addItemsButton' onclick=retriveItemsRequest('addItemText','likert')    src='img/ico/likert.png' width='20' height='20'></td>";
+                    echo "<td><img name='addItemsButton' onclick=retriveItemsRequest('addItemText','thumb')     src='img/ico/thumb.png' width='20' height='20'></td>";
+                    ?>
+                </tr>
+                <tr>
+                    <td>TEXT</td>
+                    <td>+1UNIT</td>
+                    <td>SINGLE</td>
+                    <td>MULTI</td>
+                    <td>SHULTZE</td>
+                    <td>LIKERT</td>
+                    <td>THUMB</td>
+                </tr>
+            </table>
+        </div>
+
+        <div style="text-align:left;">
+            <?php
+            echo "<fieldset class='pure-group'>";
+            echo "	<div id='addItemText'></div>";
+            echo "</fieldset>";
+            echo "<div id='warning'></div>";
+            echo $this->form()->closeTag();
+            ?>
+        </div>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,346 @@
+<!--
+/*
+ * Application name: OpenRate-it!
+ * A general-purpose polling platform
+ * Copyright (C) 2014  Alain Bindele (alain.bindele@gmail.com)
+ * This file is part of OpenRate-it!
+ * OpenRate-it! is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ * OpenRate-it! is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ */
+-->
+
+<?php echo $this->doctype(); ?>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<?php echo $this->headTitle($this->translate('OpenRate-it! Application'))->setSeparator(' - ')->setAutoEscape(false) ?>
+
+<?php echo $this->headMeta()
+    ->appendName('viewport', 'width=device-width, initial-scale=1.0')
+    ->appendHttpEquiv('X-UA-Compatible', 'IE=edge')
+?>
+
+<!-- Le styles -->
+<?php echo $this->headLink(array('rel' => 'shortcut icon', 'type' => 'image/vnd.microsoft.icon', 'href' => $this->basePath() . '/img/favicon.ico'))
+    ->prependStylesheet($this->basePath() . 'js/loopj-jquery-tokeninput/styles/token-input.css')
+    ->prependStylesheet($this->basePath() . 'js/loopj-jquery-tokeninput/styles/token-input-facebook.css')
+    ->prependStylesheet($this->basePath() . 'js/loopj-jquery-tokeninput/styles/token-input-mac.css')
+    ->prependStylesheet($this->basePath() . '/js/jpreloader/css/style.css')
+    ->prependStylesheet($this->basePath() . '/js/jpreloader/css/vendor.css')
+    ->prependStylesheet($this->basePath() . '/js/jpreloader/css/jpreloader.css')
+    ->prependStylesheet($this->basePath() . '/css/style.css')
+    ->prependStylesheet($this->basePath() . '/css/AdminConsoleStyle.css')
+    //->prependStylesheet($this->basePath() . '/css/bootstrap-theme.css')
+    //->prependStylesheet($this->basePath() . '/css/bootstrap.css')
+    ->prependStylesheet($this->basePath() . 'http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css')
+    ->prependStylesheet($this->basePath() . 'http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css')
+    ->prependStylesheet($this->basePath() . '/css/pure/forms/css/forms.css')
+    ->prependStylesheet($this->basePath() . '/css/pure/forms/css/forms-core.css')
+    ->prependStylesheet($this->basePath() . '/css/pure/forms/css/forms-r.css')
+    ->prependStylesheet($this->basePath() . '/css/pure/buttons/css/buttons.css')
+    ->prependStylesheet($this->basePath() . '/css/pure/buttons/css/buttons-core.css')
+    ->prependStylesheet($this->basePath() . '/css/pure/tables/css/tables.css')
+    ->prependStylesheet($this->basePath() . '/css/jquery-ui.css')
+    ->prependStylesheet($this->basePath() . '/css/vader/jquery-ui-1.10.3.custom.css');
+
+?>
+
+
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="js/rateit/src/rateit.css">
+
+
+<?php echo $this->headScript()
+
+    ->prependFile($this->basePath() . '/js/rateit/src/jquery.rateit.min.js')
+    ->prependFile($this->basePath() . '/js/rateit/src/jquery.rateit.js')
+    ->prependFile($this->basePath() . 'js/loopj-jquery-tokeninput/src/jquery.tokeninput.js')
+    //->prependFile($this->basePath() . '/js/likert-rating/jquery.rateit.js')
+    ->prependFile($this->basePath() . '/js/modernizr.custom.js')
+    ->prependFile($this->basePath() . '/js/jpreloader/js/jpreloader.js')
+    ->prependFile($this->basePath() . '/js/bootstrap.min.js')
+    ->prependFile($this->basePath() . 'http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js')
+    ->prependFile($this->basePath() . '/js/respond.min.js', 'text/javascript', array('conditional' => 'lt IE 9',))
+    ->prependFile($this->basePath() . '/js/html5shiv.js',   'text/javascript', array('conditional' => 'lt IE 9',))
+    ->prependFile($this->basePath() . '/js/confirm.js')
+    ->prependFile($this->basePath() . '/js/requests/admin/scripts/votes-request.js')
+    ->prependFile($this->basePath() . '/js/requests/admin/rates/rate.js')
+    ->prependFile($this->basePath() . '/js/requests/admin/rates/add-comments.js')
+    ->prependFile($this->basePath() . '/js/requests/admin/rates/proxy-rate.js')
+    ->prependFile($this->basePath() . '/js/requests/admin/unitsAndContainers/get-survey-info.js')
+    ->prependFile($this->basePath() . '/js/requests/admin/unitsAndContainers/add-survey-request.js')
+    ->prependFile($this->basePath() . '/js/requests/admin/unitsAndContainers/get-items-request.js')
+    ->prependFile($this->basePath() . '/js/requests/admin/unitsAndContainers/add-containers-request.js')
+    ->prependFile($this->basePath() . '/js/requests/admin/unitsAndContainers/get-containers-request.js')
+    ->prependFile($this->basePath() . '/js/requests/admin/unitsAndContainers/get-survey-request.js')
+    ->prependFile($this->basePath() . '/js/requests/admin/unitsAndContainers/get-survey-2vote-request.js')
+    ->prependFile($this->basePath() . '/js/requests/admin/usersAndRelationships/get-user-info-request.js')
+    ->prependFile($this->basePath() . '/js/requests/admin/usersAndRelationships/get-circles-request.js')
+    ->prependFile($this->basePath() . '/js/requests/admin/usersAndRelationships/get-contact-list-request.js')
+    ->prependFile($this->basePath() . '/js/requests/admin/usersAndRelationships/delete-social-relation.js')
+    ->prependFile($this->basePath() . '/js/requests/admin/usersAndRelationships/add-social-relation.js')
+    ->prependFile($this->basePath() . '/js/requests/admin/usersAndRelationships/add-circles-request.js')
+    ->prependFile($this->basePath() . '/js/requests/admin/usersAndRelationships/delete-users-request.js')
+    ->prependFile($this->basePath() . '/js/requests/admin/usersAndRelationships/add-user-request.js')
+    ->prependFile($this->basePath() . '/js/requests/convertToJson.js')
+    ->prependFile($this->basePath() . '/js/cbpHorizontalMenu.js')
+    ->prependFile($this->basePath() . '/js/jquery/get_XmlHttp.js')
+    ->prependFile($this->basePath() . '/js/jquery/jquery.json.js')
+    ->prependFile($this->basePath() . '/js/jquery/jquery.cookie.js')
+    ->prependFile($this->basePath() . '/js/jquery/vader/jquery-ui-1.10.3.custom.js')
+    ->prependFile($this->basePath() . '/js/jquery/jquery-1.11.1.min.js')
+;
+?>
+
+<script type="text/javascript">
+    function transformVis(pan,zoom){
+        if (d3.event){
+            if (d3.event.sourceEvent.type == "mousewheel" || d3.event.sourceEvent.type=='DOMMouseScroll'){
+                //they scrolled with the mouse wheel, update the slider postion but do not trigger it's transformVis call
+                zoomWidgetObj.setValue(0,zoom/2,false,false);
+            }else{
+                //they are interacting with the slider
+                zoomWidgetObj.doZoom = true;
+            }
+        }else{
+            zoomWidgetObj.doZoom = true;
+        }
+        vis.attr("transform", "translate(" +  (pan[0] + ((visWidth - (visWidth * zoomFactor))/2)) + ',' + (pan[1] + ((visHeight - (visHeight * zoomFactor))/2)) + ")scale(" + zoom*zoomFactor + ")");
+
+    }
+</script>
+
+<style type="text/css">
+    .visible {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 2s linear;
+    }
+    .hidden {
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s 2s, opacity 2s linear;
+    }
+</style>
+
+<script src="js/jquery/jquery-browser-plugin-master/dist/jquery.browser.js"></script>
+<!--<script type="text/javascript" src="js/searchabledropdown/jquery.searchabledropdown-1.0.8.min.js"></script>-->
+
+
+<style type="text/css">
+    label, select {
+        min-width: 150px;
+        width: 100px;
+        display:inline;
+    }
+</style>
+
+
+<script>
+    $(document).ready(function() {
+        $('#alert').hide();
+        $('#alertw').hide();
+    });
+</script>
+
+<style>
+    #accordion-resizer {
+        padding: 10px;
+        width: 100%;
+        min-height:300px;
+    }
+    .ui-menu { width: 150px; }
+</style>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#my-text-input").tokenInput("/tags", {
+            theme: "mac"
+        });
+        $('.rateit').rateit({ max: 5, step: 1 });
+    });
+</script>
+
+
+<script>
+    $(function() {
+        $( "#usermenu" ).menu();
+    });
+</script>
+
+
+<script type="text/javascript">
+    $(function() {
+        $( "#mainMenuTabs" ).tabs({});
+    });
+</script>
+
+<style>
+    #sortable { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+    #sortable li { margin: 0 3px 3px 3px; padding: 0px; padding-left: 1.5em; font-size: 1em;  }
+    #sortable li span { position: relative; margin-left: -1.3em; }
+</style>
+
+
+
+<script>
+    $(function() {
+        $( "#sortable" ).sortable();
+        $( "#sortable" ).disableSelection();
+    });
+</script>
+
+
+<script>
+    $(function() {
+        $( "#accordion" ).accordion({
+            heightStyle: "content"
+        });
+        $( "#accordion2" ).accordion({
+            heightStyle: "content"
+        });
+        $( "#accordion3" ).accordion({
+            heightStyle: "content"
+        });
+        $( "#accordion4" ).accordion({
+            heightStyle: "content"
+        });
+    });
+
+    $(function() {
+        $( "#accordion-resizer" ).resizable({
+            minHeight: 340,
+            minWidth: 200,
+            resize: function() {
+                $( "#accordion" ).accordion( "refresh" );
+            }
+        });
+    });
+</script>
+
+<!--
+PRELOADER
+ -->
+<?php $loaderCounts=0;
+if($loaderCounts==0){
+?>
+<script type="text/javascript">
+    var loaderCount = 0;
+    $(document).ready(function(){
+        if(loaderCount==0){
+            $("body").jpreLoader({
+                splashID:"#splash"
+            });
+            loaderCount++;
+        }
+    });
+    <?php
+    }
+    ?>
+
+</script>
+</head>
+
+
+
+<body>
+<div id="splash" style="
+                border-radius:20px;
+                background-color:#DDD;
+                padding:30px;">
+    <div style="color:white;">
+        <img src="img/logo.png" width="100" height="100">
+        <br><br>
+        Please wait...
+    </div>
+</div>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="<?php echo $this->url('home') ?>"><?php echo $this->translate('OpenRate-it! (Testing)') ?></a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <?php  if ($this->zfcUserIdentity()) echo $this->UserMenuWidget(); ?>
+                </li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+<div style="position:fixed;width:100%;
+    height:100%;
+    top:50px;
+    left:0px;">
+
+    <div>
+
+
+        <div style="width:400px;
+                 margin-left:10px;
+                 position:absolute;
+                 margin-left:auto;
+                 margin-right:auto;
+                 z-index:3;
+                 width: 600px;
+                 height: 450px;
+                 top: 10%;
+                 left: 50%;
+                 margin-left: -300px;
+                 display: block;"
+             id="alert" class="alert alert-success offset4 alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert">
+            <span aria-hidden="true">&times;
+            </span>
+            <span class="sr-only">Close
+            </span>
+            </button>
+        </div>
+        <div style="width:400px;
+                margin-left:10px;
+                position:absolute;
+                margin-left:auto;
+                margin-right:auto;
+                z-index:3;
+                width: 600px;
+                height: 450px;
+                top: 50%;
+                left: 50%;
+                margin-left: -300px;
+                display: block;" id="alertw" class="alert alert-warning offset4 alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert">
+        <span aria-hidden="true">&times;
+        </span>
+        <span class="sr-only">Close
+        </span>
+            </button>
+        </div>
+
+    </div>
+    <!-- ////////////////////////////////CONTENT BEGIN!!! ////////////////////////////// -->
+    <?php echo $this->content; ?>
+    <!-- ////////////////////////////////CONTENT END!!! ////////////////////////////// -->
+</div>
+<?php echo $this->inlineScript() ?>
+</body>
+</html>
